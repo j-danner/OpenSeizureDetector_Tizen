@@ -1,0 +1,2026 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="DistributorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></SignatureMethod>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7OQ9HgrqDbRZyRsAJSX4yBIWnoLv2eHupw7AwDv3nkJWUR0i6n+mwvOHzI92B8oTPiWgMqy1L29P
+DAoZhRaP9A==</DigestValue>
+</Reference>
+<Reference URI="bin%2Fopenseizuredetector_tizen">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>4BYjO61JipZf/VN1efoI+tRn4KdWgUVIhclwUUW0X/pBLGpQiltBXmkS8QVNnFxN4SfZeeFda0kC
+43FAVmGQZw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2FLICENSE.Flora">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zqs1/G7JfeTD1P5gcIT202H3IvDb1zu1FG6ZcU+LBaDco0YRfDJd9qlHxNVwbDQzV0EydV6JLYIQ
+biVfEzKbJg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2FVERSION">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9jQPVj3IP9umzK7qV80YimuC58aZw+7ot2EqOsTnKv6KNEYkRyVLveQ7DMeg4sZXYquZWPqhyIHr
+Gjy44N5n7Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Flibs%2Ftau.coverflow.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7XFV+1XdG7EGLcUYkzFcv/p3vOIw3OfQ7HS7HdQDzxTA6HEA7NW+TeYG6+RNe4K5Vnv8fjBZZCiL
+DSDiSBXQPg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Flibs%2Ftau.coverflow.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>KV+VOX7DI/4Yx7XeOx5UmT84xOAd0KVwudHO2xfZD+Gpkt4/Y8x1+A8+9/W5HFADg2U0jGFXHCdi
+DiKoKoavsw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Flibs%2Ftau.graph.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pJ+slJAwv13mUvw55P/OnBjc+13UqvSxBvpCHnQp3IfxkNpZO0tL3daFKez2MU8ZW0Q58m7BPywe
+/7h2VFC/vA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Flibs%2Ftau.graph.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7zOKMsWDqnrsvBkXqxsiQe2AhgUQZixLJenjrCvWBSieYZ3IGDqqZM4fDgLnIko0jIaseBNZvhm8
+zkU22/GlWA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Flibs%2Ftau.i3d.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>QYxudYyU28mMpos/UKssNBEIQ1BYQB+UgAdtnGTrLUrtbHj7Mb3478bqdcWT3Hr9OClREmohd+Zv
+dXwBrlLnHg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Flibs%2Ftau.i3d.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>p9WwisfEcKFodAm8F35mtEhc5lmyw2Zn2TCsq3piYzq+mlrYg+o44jfC6h+j4Jl9cblhZB2+M9JN
+1244v4Zjfw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Fjquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0mkjDfcFqBhT+LEVsuxQ/Vyy7H6Sz3G5SP2hfe7oan4Rfs4njs2RYoyA2/8Ok9uCi6nBQlS12Ij0
+634W6+WRhg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Fjquery.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>S7scyxyXEqzhQiDXmhbK0BtWpBdaDdg3qQyk1uwmLr8Pwg5voeGdtZPz1ZPd2Qz9/+SS7xejVqF1
+byf5A3a2UA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Ftau.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>XKFjNV9+fAt7RMnA795KXxuUKgugGJ8XdnSs6mSzUrm3UMkGhkEvByYNiYLe+aVWjApm6hbweyDi
+F0p0uVOA7g==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Fjs%2Ftau.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>eVc5GznKls0A5YMkildccuK0tIMTD/RZCCAoRTojfQlJ4qrm7OhWxyrCdoeqx4JmO7xwoLdC/CM5
+pNIVUmJmqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FActionbar%2Fb_more_option.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>v1ZR0GUGPVExz5CyLi1/Np6fSDAOGMokKhUcO3Db3+BiF3k2TuypDeBtF9KeTy/Xvp6XBU9pLsE0
+aJ8rRWvpLA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FActionbar%2Ftw_ic_menu_moreoverflow_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>raUQIWeqzgSS2X6S+CGPSQhtnCh538VM2343zd9CAifaWyA1thMfvc2GIVvbnViWYRm7J47qOxoa
+VgE0V612ZA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FBottom_button%2Ftw_bottom_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qb6bvYBlfUhc2HVA0ci55hSUs21cRGhOYJgJ3SV2V4/5kmy46nXPXX62yZ31byyGMxQ+dp8N94Rp
+l64yqS7mtg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FCommon%2Fb_more_option_btn_next_page.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>u1i9AZb29mMv2ISh54awCQSWG0/Vzs3eIy57VPlq9s84B4tA8e4qa9w9qZsr60no7emYU9PEfHI/
+coReQXVU/A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FCommon%2Fb_more_option_btn_previous_page.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>52TajmBPX1jTPHFaBuKuPXV6Lo+zYhimNGFhxZ0o5W31brk+xPGHNg2guwocVBrrMzt80YUi2k9s
+tKqJd+viyw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FCommon%2Fb_rotary_selector_center_pointer.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aYzWRIs3+lmJbbOExven/8APvc7gX39cFjIzBpXt62loT0MwBfprNxVv3Tuu0RbIYooZJpWtjTJe
+t5gFOPHwoA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FCommon%2Fmasking_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5Xo5BkWLd3cw2IsRCoyjx1JwAjt/l4imoNJ9I6tqWQxe6iDcLtxI3PUEwfwaexXJrIuvF4tFlUzj
+jGHHcRJF8Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FCommon%2Ftw_no_item_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1ez/5Wufa5sjJSeMGmYKeqG+gilaBRs7K/nHLPupsO48W/ah6d3XHGqqdiW+ydGi/Qob61UBgDOd
+nnPSDPD/gA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2FCheck%2Fref_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>n5G38ZtxVXfnC813f4TjvUzoSQD+UcqxyW8PijT4OF6mIyGW7NNZH5dsd50rFWa1DGJgh0tdV3HP
++UDMhnkX7Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2FCheck%2Ftw_btn_check_bg_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZshxsQEjcb61+V+zIVIDHJw/0nF7dk5Fxgi43hHxpao1C/OF3YnNV3aERGX8gP/Jwy6hwA3Wbnz
+S0q2BdC9Ww==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2FCheck%2Ftw_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>NrGP/f6Bbh3SLdy0SiMFco77VpwArTQGmly148tG9GYEHDoidF13jP3pqXsJ5S/ixtuTyHxhhuIe
+SJ10NcorGQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_bg_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZshxsQEjcb61+V+zIVIDHJw/0nF7dk5Fxgi43hHxpao1C/OF3YnNV3aERGX8gP/Jwy6hwA3Wbnz
+S0q2BdC9Ww==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_off_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ccCRPyujLs8P4XBQ6B3R49+w95sMZm7u0wvk9W0jl99t2aRIDOD8H/H3bk1RigZWoeq/cil5EKqn
+I6jHdXrY3Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_on_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iutaM0XxSOyp3Gq8HAal0WH7yX1VbdDNzALiWABwMCKZkEA1gyeJe4n/ZqeH9XVw2hZ+RIVuFbuU
+9V4XEjaupw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2FRadio%2Ftw_btn_radio_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WQPUj4zv2+12JapcZfQWC3pOgiJXoIUa6XCUGwpMZQp1A7MngFTf9jSAe3DJVVJ53cZndIIIIdia
+6SABjqlkRw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2Ftoggle_changeable.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3yxbWkwgZtbNBOt/g5ODckRezL/eRN1s82IXFFMG4EX9KtRzpofhrp1SRSqW0G/CjkhnR+K47ihe
+Zv08aUgUJg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2Ftw_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gj4nflAU88gfo2J3GAirVeVWKTz9RLzevFTdKot36l2WAhi+Ctwyl08FTEQWXD1dqdsnIKrsQLC/
+xYwQpDNPEQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2Ftw_btn_checkbox_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>g1oPkdpOIKV2gOT7cdeA4Qt5AKR/bn+XuKpUZJH/zslpvVROtVoFOkMtGN3E7MrwPUzVm2DWEdgt
+i+b3jioRoA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2Ftw_btn_checkbox_line_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ejNcbiOrkF/QVF8mqB0TKSOvZXOJRlZKf1qHSHzy96zceWWUFsCkJjJZrOpzIMTXMpbwcA43rB5a
+N2Nm7MUnqA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2Ftw_btn_radio_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>D8j4iXqytbjQNdp2DsBmCNzZFHm+mmoep08TADakjmwPrSeMe7wAZjZK4xO2JVU7+61YmyeTr/ba
+j/8wUC2zrQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2Ftw_btn_radiobox_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nEZvldmSH212GdQQTSyfqkSdDsZPCarZljezZPxiLQlqBJhqCNy+rv3hS6875ODW7A2RU49hP6g/
+RBH6S1IWBQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FController_icon%2Ftw_btn_radiobox_line.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>b0RqRCs55AHkFq13Nh8CtyBj1Rotw+tlucUgS79qytWG4KtiBEuFORcdTJ7oNG9e1faO0rRqVvog
+UZt5s1mQqQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FGrid%2Ftw_basic_grid_horizontal.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>39gtLQwOlf0bnEiM4g+//QgqQyCQ8Jg+FCzRrIfntabCaNNUnU+wTtxo0Zwtq8Udvw2hh4tDNUiG
+J8S40oLyGw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FGrid%2Ftw_basic_grid_vertical.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0lY3OdQw7R84MM72LM8c1ibYQv8glqHZZ9hfjLt7J1fCwrXg9Dopf+daXAaV3n4hniIi8xc4dp7T
+aCDOVtmg2Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FIndicator%2Fb_fast_scroll_rollover_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>IpRdOmW9NXBxBwNJaroxVDHTj11L6o55/ljTLBjpM8htEoLkDxPMUkgvIbKdT9e9PTdLn+xn8M+/
+ZX4xfAjfXg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FIndicator%2Fb_index_scroll_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>cYo2m49hEnDDMlrQGBUYDCCZciGp2yBAQxgzyIzN23k+62+1PFH4GLjFOhtCopbQ92GPKcgpBb1P
+CyFvmn61MA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FIndicator%2Findicator_horizontal_dot.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>I0Ycy8FrT+T8rEZPctTTpASeIyCUhYPg2hGk6/0KGLWiMTlCJhptPdNLsMb1jLDnqVVhQwJbuNCE
+0i27MXxsTQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FIndicator%2Findicator_horizontal_focus_dot.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JSlpNTimb03bE2awY9fWf83NheETzhsc8yM3dcitn7ZGpBIh43NcJMLjhQccjIhq2OCXa6xpsL6P
+rcrS2PkVGA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FIndicator%2Flist_scroll_triggle.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GsNTzzy6/S9LIw7vb98Jp6ZZW+/bJP7tXBsl0xP524SD5gwKxVDbGDiJgxL4ozSgDg4lTVGU3zcc
+wM2LDLe6mQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FList%2Fb_body_edge_shadow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yIW60Rd9f/6aep2DnZtlpDh+2dyWXEHKykuRl+VjkZnGgezSnEquy3s9TbOSRGGimv1VlEgxBoOg
+9LyzkyqW6w==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FList%2Fb_list_focus_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WY3jTjZO/kbuKM2XPKTS4Kl1KuWMvygsYYzPQDbKxShZ3hyQXDj4WdFxcIs40coOj9AlmeekMRi0
+aYXDIMybvA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FList%2Fb_list_focus_bg_108.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bz1q0XkysKDwiODHwTobJOeuprEH3l+uFVTDJqpd/U+3wKECQDMqbhd/wQ0YTXeYTPdxuuSfOmyH
+HlG8JcPoYA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FList%2Ftw_list_divider.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7g55hiN8YK49PJRWy9VhW+BALNGwFUD27aDiNKTlv4+K7aoG7UngOKMxgEOQHPLUeN1YzG2K9667
+j2Znlu5wTg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FList%2Ftw_list_sub_line_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vyjDLm6zhX08fYV2Sac8pJhNIoYCewwHHEV0GNZuv5VLon/E4q9fGPfF6a2cpiVSvKJ2+N4MdGea
+WLOG0H45cQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FList%2Ftw_list_sub_line_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>d55ARNXPlv/0kBa+dVhG5DaGEchlv9zZd7uXVDxuQLs3ueJ9xQU+eTOs/+OPCVSeAYTrUVCUmh3b
+QXCKKAFkJw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Fb_popup_edge_inner_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aZOVqbcr2Cym9cpI9PXugf1j06/SwKQxC1bu3W/9fPKnq8gKAjdavA/8GYw02Jquex9T5mdg/Igr
+vd/gh/5eiw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Fb_popup_edge_shadow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5mxmOQpZ3kbV51kesl60EKmRxQ4Ha7+MU4NVG2lpuI93Jakn+texk8BaLWHvjvJ86U5Wo9bxun+j
+vIKrzCwMyg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftoast_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DJFBJKAmYx6OgTI/L0edTNt9mdo090i5Na01JDGT588d9c+RlOQhvWZYNZScTCCQ3Ke89LwDWNAm
+Xo6z8ABKWw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_ic_popup_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uMQwiHJSbYd/ozGVKlH8V5rt3xVlYO0x9RxKPuwe+fVT+uNTXAHL9yKIe0LaCSjmsSxkyHrlbn+8
+rOxhsn6+QQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_ic_popup_btn_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kNWU5xLwr+GRuhy8VUU/Pe5O3DFGcJuiV86gJKFLsjwgeZr06JTLqmAhi8Dwerl6Hty6N3kTfC9p
+kh5P+1lb/Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_ic_popup_btn_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F4Lye4DoOwu1OXsz0x83p5enelFcEGUjGg4K1Z0/6l9eUI9uwH6sXqXZwDFBE3E2AMfP2vNGUkR5
+J7wmS9DVBA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_ic_popup_left_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>39I7y/GJkTP72ccKolH43zbR5E3KYk3x5oUs2wXLdFEWTCEzqPbOSJeT6Y2oxNBH7T54wosrCKhK
+cMvMXcuRvw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_ic_popup_right_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+/stZxY9FZX0T/kyUe9vPAqamZ/I8wvwT4WVDt+TATc2lQsIh4jkd2goykzRXT45eQa8ru7+0LBO
+zR3viKJS8Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_ic_toast_popup_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>k30qR9OOHDpZR8eYT52DdOAJOAtqezVHAaiRC8jJ5kDiI8GL6y02Lfu5utKl4kHUSXZg5jWvzm6v
+hC+Kn58bOQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fRrTDZiqjl1fUF3SVuLonuBLgAGIZjSY826HEtAryr9oUMVoBaoDwMwXHB7A59kVQ/6k9hsv81VY
+UDTGiL/bYQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_popup_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hXvsJATIFHBBDyXIShQ+vID+OC7gj87plz+VsDkKs24l26FVc7G1BDcTHKNlOvQuEHRaG3G5li9W
+pvbA8IAAYw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kWWUKlY7kzoArkVqgzgSoY7d2KruLiOdLpVO6K7cywmDpPr4ghGvGQIZVTKKI8QoYrvsmt3VrcLH
+rE728wUrqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zpLcJfm2wqRttIKczLhQB7Kr1PcNcskrcOovYtR7lFRzpXX6riSjlvR24fS0ZsfR2obuDNBG54tc
+0MrwbmhR1w==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_03.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pabRLMbQtwd/haJI2/JNtSh1QXhKyBRPHdGY4nT0pNzgcy0LLeGIJ/QkHlTw/TMPh6c57brCx2wR
+mvXT0lzeSA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_small_toast_popup_btn_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>G7+KLEF93Lj0YeWRr8qbG5ipDSJrrYVqfVyj3dxS/ggrQQ0rANWC8p5IUyPnpnxAkgBCICMpHYT5
+1ayIQCT7sA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_toast_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hwszs2VntS7Fej5mgWT+kOwAHvbv5+YWlLRhlgzJsKQqw/VR3rm2FrSAqBxJ8fpMQlVwmDqpu+Nq
+/36qF8lcwQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_toast_popup_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>im5xoe0nh/Y2n89otbywE3zMuu7CQL3xPooX4kkz4tAyxWT4UaZsDeUb8xlaDAkty/5zJ2dtdXIR
+nxIbGNjPAA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_toast_popup_image_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VkW8LUUwuBwGVxgGQbTO/h12Ql6mjVGDJfEqL+J4byFoEqjloYbk0ljWE6bn2jvdGrxpEdgJ4fV5
+xAtV9e4GBw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FPopup%2Ftw_toast_popup_outline.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dMnG5V1yEYYfB0m+98jxiKnJyB3qdMYSy0ITnJVl80lB3/X7WR1CZHKnHZdf9vkH2uc59aa1LXJN
+JW41NVTOLw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FProcessing%2Fprocessing_bar.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bvJHRMBX0T4N6X4QfE/Rnwf6G1d/80QPws/xbYWo2aTi/+Qxh0QArqT+mWtdgQgYe9Gg+/Eip4Dt
+fq3TwGwF5A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FProcessing%2Fprocessingfull.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aJaCnDVL5DNHJM/uyCuyPe9C7wVw7fb60CGLCSqWLr4OS+mEOint5+SqG5Z7ZWODk9XwLLjUJgMR
+DKF7Ljonqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FProcessing%2Fprocessingsmall.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>o8uVBDH/vslGzVaBVrYFgzE4JHpZlaROwC8alFMDPV7Zo1HOF/lRWAQR7IYhkd67qFlgGtT9PDEF
+SbVCC+oZ+Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_bottom_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LXpwC74UdvL1a5qFP09BhPsk+y4/VmmoMioZ8Ez7IR5poiMNDpFGpiZ1bCOcX/PMmUvGnmtnPTzY
+HFvk4xFYVg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_bottom_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+WeusvAtVjt2fF0OjK5a3RrwdET8fsu/rwIhTLlEyT2z4p390PWGq0UAm4QGrhRLTkDTEkvjEfRD
+AXeTfYk4Eg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_circle_bottom_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ix8zA6GHvN2TCif6o6Nj20Qn/Y6QqHSHIb+GVuPhQIsh7pE6gkRIJ3QGN4SFEBHePqVBbLaFQkOX
+Lmypy/TRwA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_circle_bottom_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JjO+5hZTuoUY7gvDJ1U520Z2+RiXgBEF+iUF4A7V9pxNOIDOIiaLPkKLPIGTJjCmACPd+54mHLr5
+uBgPTGp+TQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_circle_left_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ledEKDp+u35Ts5bCQGB0Vzn1/LwqE3cU7XukTlCGQM/hjlbP/PVsB7a73X6l6VLbxJaZ98EgDVz5
+mbRdwd475A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_circle_left_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1LV/DVLYe2WU4apzlg8FzS7oi1p5I+5rCrZF5gk3IvUDM/nd+oCiytLrykK8WFqnFkot8OYIimS3
+wEWFNCJRfg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_circle_right_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Qaw4GRK9NAVeaz9BDy/4aLvFSR1Wi3eS/97tSJTxzAHTQhQfwrtD0+9NxN6WajogkrqMGd6B9DPA
+fQKZbii+Ew==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_circle_right_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>BAJ0y0JhSK2RQCy/8nMUShHIzuEZr2B3FeDg7yPOsNiZpcTjLd5sid/L/kW97zm1nyNTYG8ZKLKw
+eGST7L1/tA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_circle_top_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/9tQoTIn1fJ73PyoKeqwZKHJbtyIKw5r4lBqVhlyFAzEfKziv7p30hRBNCBvn7vz6rMLfXnqbE1n
+aU5yCZN+vw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_circle_top_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZuYWDPUxLNaMgcGNZBAjciyYTRermA9bs61DqnLSNOXXkg1lt55maX7ahYkvlquXWVFsGXULwF7w
+1I7HGrnElQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_left_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WP33BfUjc/QeUaKWXA66+2oD9HD8km7WDMifcxcqPAi5aqahkuDOU/o61od6PLrP3RpRL+kpoDGo
+vq0/lS832Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_left_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>S2q1ZCeSxEjfzwE0Yg9F1sBycrNw0Wg9V8jaB7feDWmkGx4+xeXEFXSd5e4lideQen/pzVTI3nf4
+7yR0BZUaDQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_right_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZT6N9hVpy4tgjYgr5syhZRMPmu9kWt11X6tvMK5F13wMCABz7QLicKmN2ihuu1WxBPN77pTwyqcf
+nrtwxfGd7A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_right_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wT6M1w0EgOhpUisbrq/0Eev5nn3r4hTzxe3ssS+QCKgQ4L+vG6CkMrm+8zx9g8xZTOAV+kd/VdMF
+VfmI3YX1ew==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_top_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rj1KUZUZgLLwiA7MVQbs62l8hfm5w6R9DLXtgIIhks98Z0xe9xrcAUjXZPDKMSoV0T2VXk+4/O9i
+R8OXqSMWIQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FScroller%2Fbouncing_top_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Z4+9rIIfx8rleQl7sQHH9/JiMxlTkrJU9Dgp0OQtKv2veBP1EB74j7l8hKqv/ymgTeg0ydVxavn0
+0UKiBqrr0Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_add.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>jF0vWBvgBBqnUqQsTnWRJRKQ9zijmJHayHK/ijNz2J2lli376yO5dDBzO3r+6t5h6lCo6tYhqANM
+Ci1Bbnc1Gg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DTmddcWz+G+wIO1JAr2sF/a5ubywrIovuVeHw1d2RxyN4MAw904JiLy3CLWLdkbaOTEahZ2S4Vos
+zzpTQrtcWg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LEoNZqi5WaAQhpsH7CysvX9vfXnKypV4X4sTHB7FBhtlFONBGG5UQ7wTprJx1RpuloaoB+JdPMS0
+t4YZen4m1Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete_bg_ef.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1vPaIGkFgkEcwuZDK6ESnQ/Zh8I0hp9qjL7NTKVfaszq247XK2Sqnz+o1/eh+VOxqRAbwcJWBDbB
+cE58BMeWEg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSlider%2Fb_ic_press_full_circle_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DJVt390FNeOCx2sErPqwKimwBi+3ubbSJhWfJhJdUAp64TlNZxnBPMU2opPKMR7aJGJqftvU27Fn
+jAQE8ARbWw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSlider%2Fb_slider_icon_minus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3CQMHjoY3A3yngZeLLZN1qOTndXIgxZSt8kNItvpKT2MbjC1QM0kJyk6qf2B7XaMhnE23SqV9tGn
+3e4Wr2d14g==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSlider%2Fb_slider_icon_plus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>xXKqHQZmu+yZTcCy11gYF4a7SlRWrUb01SAtw7AnmytUmv/uUvVQ8/oR22+jfOpM8WdKbCaXdKkU
+9WTVrib4Lw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSwipelist%2Fb_logs_icon_actionbar_btn_msg_nor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>lS9dNclejI4wRwy3e9dxf6Z0eniqN5FLQ1vf49NAz6Kb6IZVrAhLnElPF+8xTLKC/+cj+6muT5Sb
+vevNmVtjuA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FSwipelist%2Fb_logs_icon_body_btn_call_nor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hSKZpPaQWUmI0JU7fGfUrKUFkNqN5r/75TtmZUa6Nj4/iFizGrv5tdJLnYdm+NQWtSua67/ysvZH
+vMCxupWfDw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FTextInput%2Fb_list_edit_field_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GdYpD3RzlMaQL3OunDwQHEw1wXnfCcpm+RRlVJKsTjm9cUWjXzgcRKQc5vw9GviwiV5mNBrNnKN5
+U5qapDniag==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FTimePicker%2Ftime_picker_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>162sNqyYv/d/hOPo8wOZQ+T7dzMHWxdxJODqU910YYNpQC5qVrKAQZ7glLNm9RMjo2Qpz7hrHsx8
+ngTsbxHltw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2FTitle_bar%2Fb_detail_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Yt9aGAKVBliTdKkKj58Kcarq+rwuGIj5EdaOiO8FI76mqWPCnki1eTir7vjDAoDSPwZykojQky0A
+Dt3ZltUrdA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2Fdimmer%2Flightbulb.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>X+TkW5A1pRDCpl8ekWgzuio+YLebxP1dVynuPYDXGKmiblj6xCFnQPv/r6R48sppw6SYNoyff11O
+wzCxxbjxGg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2Fgo_to_top_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nWwEhuNORQ1swc59AN3X5bcAvggs4L8X+SaF9aR/RJB0tSuOURd1RwMf6clQLhV7gw+/CpSoh4in
+mk/NdGQhMg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2Fgo_to_top_white.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3JV9iQFRiRLqWsWB1X/jomQGT2kf6Fl5av0qCcaMc3JxQhXTtjY8W5BcD/R4M3XzBGBkjQQ3pGSb
+9QXPhObUjA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2Findicator_fast_scroll_arrow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Np9ZuZhOQ7KD9n97V7z0JcDhTu3M4TOis0sbShcsVYxAE+ufpxu7mQxK8TL+6ol/QWigud+AO936
+uOhYYBlMXg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2Findicator_fast_scroll_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0saUaqHtXnr3uzqTxbUJ6vxG2nlioOGdzLCVxjrwHlkrdWGIMhBhXQlLg+F54uEEzIwP4pT/yCLV
+99FBNfF2eQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Fimages%2Fprimary_assist_btn.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VgD54yDxIpJ2yL2qx8zel6seMM4GVUf8yRVDzZvC8nDzJ+LP+fwxuMjZ5NHwWP2XrHk8Td8Nj0/+
+SRQWAYHXPA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Ftau.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PG6gujuSV8uaVAPgLtfm63auoOGpTWJnux/q3qACOepb4O8klGW33OGq1g8MdwVBf9PqE+zwtlZ5
+OSoYuLsfLA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fblue%2Ftau.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>L3YpRmP0odsCTsWf1uuuQtweG3O1j1ZC/52oE1k7jtk90HEtSjs0cvF5bFrB5a3nyWvdCW/wMIPj
+0UpcWlpI6Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FActionbar%2Fb_more_option.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>v1ZR0GUGPVExz5CyLi1/Np6fSDAOGMokKhUcO3Db3+BiF3k2TuypDeBtF9KeTy/Xvp6XBU9pLsE0
+aJ8rRWvpLA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FActionbar%2Ftw_ic_menu_moreoverflow_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>raUQIWeqzgSS2X6S+CGPSQhtnCh538VM2343zd9CAifaWyA1thMfvc2GIVvbnViWYRm7J47qOxoa
+VgE0V612ZA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FBottom_button%2Ftw_bottom_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qb6bvYBlfUhc2HVA0ci55hSUs21cRGhOYJgJ3SV2V4/5kmy46nXPXX62yZ31byyGMxQ+dp8N94Rp
+l64yqS7mtg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FCommon%2Fb_more_option_btn_next_page.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>u1i9AZb29mMv2ISh54awCQSWG0/Vzs3eIy57VPlq9s84B4tA8e4qa9w9qZsr60no7emYU9PEfHI/
+coReQXVU/A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FCommon%2Fb_more_option_btn_previous_page.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>52TajmBPX1jTPHFaBuKuPXV6Lo+zYhimNGFhxZ0o5W31brk+xPGHNg2guwocVBrrMzt80YUi2k9s
+tKqJd+viyw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FCommon%2Fb_rotary_selector_center_pointer.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aYzWRIs3+lmJbbOExven/8APvc7gX39cFjIzBpXt62loT0MwBfprNxVv3Tuu0RbIYooZJpWtjTJe
+t5gFOPHwoA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FCommon%2Fmasking_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5Xo5BkWLd3cw2IsRCoyjx1JwAjt/l4imoNJ9I6tqWQxe6iDcLtxI3PUEwfwaexXJrIuvF4tFlUzj
+jGHHcRJF8Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FCommon%2Ftw_no_item_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1ez/5Wufa5sjJSeMGmYKeqG+gilaBRs7K/nHLPupsO48W/ah6d3XHGqqdiW+ydGi/Qob61UBgDOd
+nnPSDPD/gA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2FCheck%2Fref_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>n5G38ZtxVXfnC813f4TjvUzoSQD+UcqxyW8PijT4OF6mIyGW7NNZH5dsd50rFWa1DGJgh0tdV3HP
++UDMhnkX7Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2FCheck%2Ftw_btn_check_bg_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZshxsQEjcb61+V+zIVIDHJw/0nF7dk5Fxgi43hHxpao1C/OF3YnNV3aERGX8gP/Jwy6hwA3Wbnz
+S0q2BdC9Ww==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2FCheck%2Ftw_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>NrGP/f6Bbh3SLdy0SiMFco77VpwArTQGmly148tG9GYEHDoidF13jP3pqXsJ5S/ixtuTyHxhhuIe
+SJ10NcorGQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_bg_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZshxsQEjcb61+V+zIVIDHJw/0nF7dk5Fxgi43hHxpao1C/OF3YnNV3aERGX8gP/Jwy6hwA3Wbnz
+S0q2BdC9Ww==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_off_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ccCRPyujLs8P4XBQ6B3R49+w95sMZm7u0wvk9W0jl99t2aRIDOD8H/H3bk1RigZWoeq/cil5EKqn
+I6jHdXrY3Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_on_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iutaM0XxSOyp3Gq8HAal0WH7yX1VbdDNzALiWABwMCKZkEA1gyeJe4n/ZqeH9XVw2hZ+RIVuFbuU
+9V4XEjaupw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2FRadio%2Ftw_btn_radio_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WQPUj4zv2+12JapcZfQWC3pOgiJXoIUa6XCUGwpMZQp1A7MngFTf9jSAe3DJVVJ53cZndIIIIdia
+6SABjqlkRw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2Ftoggle_changeable.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3yxbWkwgZtbNBOt/g5ODckRezL/eRN1s82IXFFMG4EX9KtRzpofhrp1SRSqW0G/CjkhnR+K47ihe
+Zv08aUgUJg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2Ftw_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gj4nflAU88gfo2J3GAirVeVWKTz9RLzevFTdKot36l2WAhi+Ctwyl08FTEQWXD1dqdsnIKrsQLC/
+xYwQpDNPEQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2Ftw_btn_checkbox_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>g1oPkdpOIKV2gOT7cdeA4Qt5AKR/bn+XuKpUZJH/zslpvVROtVoFOkMtGN3E7MrwPUzVm2DWEdgt
+i+b3jioRoA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2Ftw_btn_checkbox_line_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ejNcbiOrkF/QVF8mqB0TKSOvZXOJRlZKf1qHSHzy96zceWWUFsCkJjJZrOpzIMTXMpbwcA43rB5a
+N2Nm7MUnqA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2Ftw_btn_radio_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>D8j4iXqytbjQNdp2DsBmCNzZFHm+mmoep08TADakjmwPrSeMe7wAZjZK4xO2JVU7+61YmyeTr/ba
+j/8wUC2zrQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2Ftw_btn_radiobox_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nEZvldmSH212GdQQTSyfqkSdDsZPCarZljezZPxiLQlqBJhqCNy+rv3hS6875ODW7A2RU49hP6g/
+RBH6S1IWBQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FController_icon%2Ftw_btn_radiobox_line.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>b0RqRCs55AHkFq13Nh8CtyBj1Rotw+tlucUgS79qytWG4KtiBEuFORcdTJ7oNG9e1faO0rRqVvog
+UZt5s1mQqQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FGrid%2Ftw_basic_grid_horizontal.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>39gtLQwOlf0bnEiM4g+//QgqQyCQ8Jg+FCzRrIfntabCaNNUnU+wTtxo0Zwtq8Udvw2hh4tDNUiG
+J8S40oLyGw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FGrid%2Ftw_basic_grid_vertical.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0lY3OdQw7R84MM72LM8c1ibYQv8glqHZZ9hfjLt7J1fCwrXg9Dopf+daXAaV3n4hniIi8xc4dp7T
+aCDOVtmg2Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FIndicator%2Fb_fast_scroll_rollover_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>IpRdOmW9NXBxBwNJaroxVDHTj11L6o55/ljTLBjpM8htEoLkDxPMUkgvIbKdT9e9PTdLn+xn8M+/
+ZX4xfAjfXg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FIndicator%2Fb_index_scroll_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>cYo2m49hEnDDMlrQGBUYDCCZciGp2yBAQxgzyIzN23k+62+1PFH4GLjFOhtCopbQ92GPKcgpBb1P
+CyFvmn61MA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FIndicator%2Findicator_horizontal_dot.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>I0Ycy8FrT+T8rEZPctTTpASeIyCUhYPg2hGk6/0KGLWiMTlCJhptPdNLsMb1jLDnqVVhQwJbuNCE
+0i27MXxsTQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FIndicator%2Findicator_horizontal_focus_dot.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JSlpNTimb03bE2awY9fWf83NheETzhsc8yM3dcitn7ZGpBIh43NcJMLjhQccjIhq2OCXa6xpsL6P
+rcrS2PkVGA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FIndicator%2Flist_scroll_triggle.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GsNTzzy6/S9LIw7vb98Jp6ZZW+/bJP7tXBsl0xP524SD5gwKxVDbGDiJgxL4ozSgDg4lTVGU3zcc
+wM2LDLe6mQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FList%2Fb_body_edge_shadow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yIW60Rd9f/6aep2DnZtlpDh+2dyWXEHKykuRl+VjkZnGgezSnEquy3s9TbOSRGGimv1VlEgxBoOg
+9LyzkyqW6w==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FList%2Fb_list_focus_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WY3jTjZO/kbuKM2XPKTS4Kl1KuWMvygsYYzPQDbKxShZ3hyQXDj4WdFxcIs40coOj9AlmeekMRi0
+aYXDIMybvA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FList%2Fb_list_focus_bg_108.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bz1q0XkysKDwiODHwTobJOeuprEH3l+uFVTDJqpd/U+3wKECQDMqbhd/wQ0YTXeYTPdxuuSfOmyH
+HlG8JcPoYA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FList%2Ftw_list_divider.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7g55hiN8YK49PJRWy9VhW+BALNGwFUD27aDiNKTlv4+K7aoG7UngOKMxgEOQHPLUeN1YzG2K9667
+j2Znlu5wTg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FList%2Ftw_list_sub_line_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vyjDLm6zhX08fYV2Sac8pJhNIoYCewwHHEV0GNZuv5VLon/E4q9fGPfF6a2cpiVSvKJ2+N4MdGea
+WLOG0H45cQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FList%2Ftw_list_sub_line_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>d55ARNXPlv/0kBa+dVhG5DaGEchlv9zZd7uXVDxuQLs3ueJ9xQU+eTOs/+OPCVSeAYTrUVCUmh3b
+QXCKKAFkJw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Fb_popup_edge_inner_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aZOVqbcr2Cym9cpI9PXugf1j06/SwKQxC1bu3W/9fPKnq8gKAjdavA/8GYw02Jquex9T5mdg/Igr
+vd/gh/5eiw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Fb_popup_edge_shadow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5mxmOQpZ3kbV51kesl60EKmRxQ4Ha7+MU4NVG2lpuI93Jakn+texk8BaLWHvjvJ86U5Wo9bxun+j
+vIKrzCwMyg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftoast_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DJFBJKAmYx6OgTI/L0edTNt9mdo090i5Na01JDGT588d9c+RlOQhvWZYNZScTCCQ3Ke89LwDWNAm
+Xo6z8ABKWw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_ic_popup_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uMQwiHJSbYd/ozGVKlH8V5rt3xVlYO0x9RxKPuwe+fVT+uNTXAHL9yKIe0LaCSjmsSxkyHrlbn+8
+rOxhsn6+QQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_ic_popup_btn_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kNWU5xLwr+GRuhy8VUU/Pe5O3DFGcJuiV86gJKFLsjwgeZr06JTLqmAhi8Dwerl6Hty6N3kTfC9p
+kh5P+1lb/Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_ic_popup_btn_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F4Lye4DoOwu1OXsz0x83p5enelFcEGUjGg4K1Z0/6l9eUI9uwH6sXqXZwDFBE3E2AMfP2vNGUkR5
+J7wmS9DVBA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_ic_popup_left_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>39I7y/GJkTP72ccKolH43zbR5E3KYk3x5oUs2wXLdFEWTCEzqPbOSJeT6Y2oxNBH7T54wosrCKhK
+cMvMXcuRvw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_ic_popup_right_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+/stZxY9FZX0T/kyUe9vPAqamZ/I8wvwT4WVDt+TATc2lQsIh4jkd2goykzRXT45eQa8ru7+0LBO
+zR3viKJS8Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_ic_toast_popup_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>k30qR9OOHDpZR8eYT52DdOAJOAtqezVHAaiRC8jJ5kDiI8GL6y02Lfu5utKl4kHUSXZg5jWvzm6v
+hC+Kn58bOQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fRrTDZiqjl1fUF3SVuLonuBLgAGIZjSY826HEtAryr9oUMVoBaoDwMwXHB7A59kVQ/6k9hsv81VY
+UDTGiL/bYQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_popup_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hXvsJATIFHBBDyXIShQ+vID+OC7gj87plz+VsDkKs24l26FVc7G1BDcTHKNlOvQuEHRaG3G5li9W
+pvbA8IAAYw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kWWUKlY7kzoArkVqgzgSoY7d2KruLiOdLpVO6K7cywmDpPr4ghGvGQIZVTKKI8QoYrvsmt3VrcLH
+rE728wUrqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zpLcJfm2wqRttIKczLhQB7Kr1PcNcskrcOovYtR7lFRzpXX6riSjlvR24fS0ZsfR2obuDNBG54tc
+0MrwbmhR1w==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_03.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pabRLMbQtwd/haJI2/JNtSh1QXhKyBRPHdGY4nT0pNzgcy0LLeGIJ/QkHlTw/TMPh6c57brCx2wR
+mvXT0lzeSA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_small_toast_popup_btn_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>G7+KLEF93Lj0YeWRr8qbG5ipDSJrrYVqfVyj3dxS/ggrQQ0rANWC8p5IUyPnpnxAkgBCICMpHYT5
+1ayIQCT7sA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_toast_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hwszs2VntS7Fej5mgWT+kOwAHvbv5+YWlLRhlgzJsKQqw/VR3rm2FrSAqBxJ8fpMQlVwmDqpu+Nq
+/36qF8lcwQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_toast_popup_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>im5xoe0nh/Y2n89otbywE3zMuu7CQL3xPooX4kkz4tAyxWT4UaZsDeUb8xlaDAkty/5zJ2dtdXIR
+nxIbGNjPAA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_toast_popup_image_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VkW8LUUwuBwGVxgGQbTO/h12Ql6mjVGDJfEqL+J4byFoEqjloYbk0ljWE6bn2jvdGrxpEdgJ4fV5
+xAtV9e4GBw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FPopup%2Ftw_toast_popup_outline.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dMnG5V1yEYYfB0m+98jxiKnJyB3qdMYSy0ITnJVl80lB3/X7WR1CZHKnHZdf9vkH2uc59aa1LXJN
+JW41NVTOLw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FProcessing%2Fprocessing_bar.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bvJHRMBX0T4N6X4QfE/Rnwf6G1d/80QPws/xbYWo2aTi/+Qxh0QArqT+mWtdgQgYe9Gg+/Eip4Dt
+fq3TwGwF5A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FProcessing%2Fprocessingfull.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aJaCnDVL5DNHJM/uyCuyPe9C7wVw7fb60CGLCSqWLr4OS+mEOint5+SqG5Z7ZWODk9XwLLjUJgMR
+DKF7Ljonqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FProcessing%2Fprocessingsmall.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>o8uVBDH/vslGzVaBVrYFgzE4JHpZlaROwC8alFMDPV7Zo1HOF/lRWAQR7IYhkd67qFlgGtT9PDEF
+SbVCC+oZ+Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_bottom_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LXpwC74UdvL1a5qFP09BhPsk+y4/VmmoMioZ8Ez7IR5poiMNDpFGpiZ1bCOcX/PMmUvGnmtnPTzY
+HFvk4xFYVg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_bottom_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+WeusvAtVjt2fF0OjK5a3RrwdET8fsu/rwIhTLlEyT2z4p390PWGq0UAm4QGrhRLTkDTEkvjEfRD
+AXeTfYk4Eg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_circle_bottom_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ix8zA6GHvN2TCif6o6Nj20Qn/Y6QqHSHIb+GVuPhQIsh7pE6gkRIJ3QGN4SFEBHePqVBbLaFQkOX
+Lmypy/TRwA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_circle_bottom_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JjO+5hZTuoUY7gvDJ1U520Z2+RiXgBEF+iUF4A7V9pxNOIDOIiaLPkKLPIGTJjCmACPd+54mHLr5
+uBgPTGp+TQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_circle_left_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ledEKDp+u35Ts5bCQGB0Vzn1/LwqE3cU7XukTlCGQM/hjlbP/PVsB7a73X6l6VLbxJaZ98EgDVz5
+mbRdwd475A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_circle_left_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1LV/DVLYe2WU4apzlg8FzS7oi1p5I+5rCrZF5gk3IvUDM/nd+oCiytLrykK8WFqnFkot8OYIimS3
+wEWFNCJRfg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_circle_right_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Qaw4GRK9NAVeaz9BDy/4aLvFSR1Wi3eS/97tSJTxzAHTQhQfwrtD0+9NxN6WajogkrqMGd6B9DPA
+fQKZbii+Ew==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_circle_right_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>BAJ0y0JhSK2RQCy/8nMUShHIzuEZr2B3FeDg7yPOsNiZpcTjLd5sid/L/kW97zm1nyNTYG8ZKLKw
+eGST7L1/tA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_circle_top_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/9tQoTIn1fJ73PyoKeqwZKHJbtyIKw5r4lBqVhlyFAzEfKziv7p30hRBNCBvn7vz6rMLfXnqbE1n
+aU5yCZN+vw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_circle_top_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZuYWDPUxLNaMgcGNZBAjciyYTRermA9bs61DqnLSNOXXkg1lt55maX7ahYkvlquXWVFsGXULwF7w
+1I7HGrnElQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_left_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WP33BfUjc/QeUaKWXA66+2oD9HD8km7WDMifcxcqPAi5aqahkuDOU/o61od6PLrP3RpRL+kpoDGo
+vq0/lS832Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_left_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>S2q1ZCeSxEjfzwE0Yg9F1sBycrNw0Wg9V8jaB7feDWmkGx4+xeXEFXSd5e4lideQen/pzVTI3nf4
+7yR0BZUaDQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_right_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZT6N9hVpy4tgjYgr5syhZRMPmu9kWt11X6tvMK5F13wMCABz7QLicKmN2ihuu1WxBPN77pTwyqcf
+nrtwxfGd7A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_right_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wT6M1w0EgOhpUisbrq/0Eev5nn3r4hTzxe3ssS+QCKgQ4L+vG6CkMrm+8zx9g8xZTOAV+kd/VdMF
+VfmI3YX1ew==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_top_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rj1KUZUZgLLwiA7MVQbs62l8hfm5w6R9DLXtgIIhks98Z0xe9xrcAUjXZPDKMSoV0T2VXk+4/O9i
+R8OXqSMWIQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FScroller%2Fbouncing_top_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Z4+9rIIfx8rleQl7sQHH9/JiMxlTkrJU9Dgp0OQtKv2veBP1EB74j7l8hKqv/ymgTeg0ydVxavn0
+0UKiBqrr0Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_add.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>jF0vWBvgBBqnUqQsTnWRJRKQ9zijmJHayHK/ijNz2J2lli376yO5dDBzO3r+6t5h6lCo6tYhqANM
+Ci1Bbnc1Gg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DTmddcWz+G+wIO1JAr2sF/a5ubywrIovuVeHw1d2RxyN4MAw904JiLy3CLWLdkbaOTEahZ2S4Vos
+zzpTQrtcWg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LEoNZqi5WaAQhpsH7CysvX9vfXnKypV4X4sTHB7FBhtlFONBGG5UQ7wTprJx1RpuloaoB+JdPMS0
+t4YZen4m1Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete_bg_ef.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1vPaIGkFgkEcwuZDK6ESnQ/Zh8I0hp9qjL7NTKVfaszq247XK2Sqnz+o1/eh+VOxqRAbwcJWBDbB
+cE58BMeWEg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSlider%2Fb_ic_press_full_circle_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DJVt390FNeOCx2sErPqwKimwBi+3ubbSJhWfJhJdUAp64TlNZxnBPMU2opPKMR7aJGJqftvU27Fn
+jAQE8ARbWw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSlider%2Fb_slider_icon_minus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3CQMHjoY3A3yngZeLLZN1qOTndXIgxZSt8kNItvpKT2MbjC1QM0kJyk6qf2B7XaMhnE23SqV9tGn
+3e4Wr2d14g==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSlider%2Fb_slider_icon_plus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>xXKqHQZmu+yZTcCy11gYF4a7SlRWrUb01SAtw7AnmytUmv/uUvVQ8/oR22+jfOpM8WdKbCaXdKkU
+9WTVrib4Lw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSwipelist%2Fb_logs_icon_actionbar_btn_msg_nor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>lS9dNclejI4wRwy3e9dxf6Z0eniqN5FLQ1vf49NAz6Kb6IZVrAhLnElPF+8xTLKC/+cj+6muT5Sb
+vevNmVtjuA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FSwipelist%2Fb_logs_icon_body_btn_call_nor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hSKZpPaQWUmI0JU7fGfUrKUFkNqN5r/75TtmZUa6Nj4/iFizGrv5tdJLnYdm+NQWtSua67/ysvZH
+vMCxupWfDw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FTextInput%2Fb_list_edit_field_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GdYpD3RzlMaQL3OunDwQHEw1wXnfCcpm+RRlVJKsTjm9cUWjXzgcRKQc5vw9GviwiV5mNBrNnKN5
+U5qapDniag==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FTimePicker%2Ftime_picker_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>162sNqyYv/d/hOPo8wOZQ+T7dzMHWxdxJODqU910YYNpQC5qVrKAQZ7glLNm9RMjo2Qpz7hrHsx8
+ngTsbxHltw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2FTitle_bar%2Fb_detail_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Yt9aGAKVBliTdKkKj58Kcarq+rwuGIj5EdaOiO8FI76mqWPCnki1eTir7vjDAoDSPwZykojQky0A
+Dt3ZltUrdA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2Fdimmer%2Flightbulb.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>X+TkW5A1pRDCpl8ekWgzuio+YLebxP1dVynuPYDXGKmiblj6xCFnQPv/r6R48sppw6SYNoyff11O
+wzCxxbjxGg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2Fgo_to_top_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nWwEhuNORQ1swc59AN3X5bcAvggs4L8X+SaF9aR/RJB0tSuOURd1RwMf6clQLhV7gw+/CpSoh4in
+mk/NdGQhMg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2Fgo_to_top_white.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3JV9iQFRiRLqWsWB1X/jomQGT2kf6Fl5av0qCcaMc3JxQhXTtjY8W5BcD/R4M3XzBGBkjQQ3pGSb
+9QXPhObUjA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2Findicator_fast_scroll_arrow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Np9ZuZhOQ7KD9n97V7z0JcDhTu3M4TOis0sbShcsVYxAE+ufpxu7mQxK8TL+6ol/QWigud+AO936
+uOhYYBlMXg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2Findicator_fast_scroll_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0saUaqHtXnr3uzqTxbUJ6vxG2nlioOGdzLCVxjrwHlkrdWGIMhBhXQlLg+F54uEEzIwP4pT/yCLV
+99FBNfF2eQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Fimages%2Fprimary_assist_btn.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VgD54yDxIpJ2yL2qx8zel6seMM4GVUf8yRVDzZvC8nDzJ+LP+fwxuMjZ5NHwWP2XrHk8Td8Nj0/+
+SRQWAYHXPA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Ftau.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kqtuovn/3xGg5n7dlM2cMKxx/ks7feaYPznyTWm2BpXK8hudV5yoq/QmVYz8qLXQ2Ue7isDD3svo
+1Wh64bk4tQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fbrown%2Ftau.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ABKqbz5oOqlabltrehE0KE6OHY6VDkECzG7+xaCyMf/M5ZKw7m+8meFOOBY92tG1cDHj7pYFmIsG
+8MUBUeQXDg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FActionbar%2Fb_more_option.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>v1ZR0GUGPVExz5CyLi1/Np6fSDAOGMokKhUcO3Db3+BiF3k2TuypDeBtF9KeTy/Xvp6XBU9pLsE0
+aJ8rRWvpLA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FActionbar%2Ftw_ic_menu_moreoverflow_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>raUQIWeqzgSS2X6S+CGPSQhtnCh538VM2343zd9CAifaWyA1thMfvc2GIVvbnViWYRm7J47qOxoa
+VgE0V612ZA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FBottom_button%2Ftw_bottom_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qb6bvYBlfUhc2HVA0ci55hSUs21cRGhOYJgJ3SV2V4/5kmy46nXPXX62yZ31byyGMxQ+dp8N94Rp
+l64yqS7mtg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FCommon%2Fb_more_option_btn_next_page.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>u1i9AZb29mMv2ISh54awCQSWG0/Vzs3eIy57VPlq9s84B4tA8e4qa9w9qZsr60no7emYU9PEfHI/
+coReQXVU/A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FCommon%2Fb_more_option_btn_previous_page.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>52TajmBPX1jTPHFaBuKuPXV6Lo+zYhimNGFhxZ0o5W31brk+xPGHNg2guwocVBrrMzt80YUi2k9s
+tKqJd+viyw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FCommon%2Fb_rotary_selector_center_pointer.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aYzWRIs3+lmJbbOExven/8APvc7gX39cFjIzBpXt62loT0MwBfprNxVv3Tuu0RbIYooZJpWtjTJe
+t5gFOPHwoA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FCommon%2Fmasking_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5Xo5BkWLd3cw2IsRCoyjx1JwAjt/l4imoNJ9I6tqWQxe6iDcLtxI3PUEwfwaexXJrIuvF4tFlUzj
+jGHHcRJF8Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FCommon%2Ftw_no_item_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1ez/5Wufa5sjJSeMGmYKeqG+gilaBRs7K/nHLPupsO48W/ah6d3XHGqqdiW+ydGi/Qob61UBgDOd
+nnPSDPD/gA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2FCheck%2Fref_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>n5G38ZtxVXfnC813f4TjvUzoSQD+UcqxyW8PijT4OF6mIyGW7NNZH5dsd50rFWa1DGJgh0tdV3HP
++UDMhnkX7Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2FCheck%2Ftw_btn_check_bg_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZshxsQEjcb61+V+zIVIDHJw/0nF7dk5Fxgi43hHxpao1C/OF3YnNV3aERGX8gP/Jwy6hwA3Wbnz
+S0q2BdC9Ww==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2FCheck%2Ftw_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>NrGP/f6Bbh3SLdy0SiMFco77VpwArTQGmly148tG9GYEHDoidF13jP3pqXsJ5S/ixtuTyHxhhuIe
+SJ10NcorGQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_bg_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZshxsQEjcb61+V+zIVIDHJw/0nF7dk5Fxgi43hHxpao1C/OF3YnNV3aERGX8gP/Jwy6hwA3Wbnz
+S0q2BdC9Ww==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_off_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ccCRPyujLs8P4XBQ6B3R49+w95sMZm7u0wvk9W0jl99t2aRIDOD8H/H3bk1RigZWoeq/cil5EKqn
+I6jHdXrY3Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_on_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iutaM0XxSOyp3Gq8HAal0WH7yX1VbdDNzALiWABwMCKZkEA1gyeJe4n/ZqeH9XVw2hZ+RIVuFbuU
+9V4XEjaupw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2FRadio%2Ftw_btn_radio_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WQPUj4zv2+12JapcZfQWC3pOgiJXoIUa6XCUGwpMZQp1A7MngFTf9jSAe3DJVVJ53cZndIIIIdia
+6SABjqlkRw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2Ftoggle_changeable.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3yxbWkwgZtbNBOt/g5ODckRezL/eRN1s82IXFFMG4EX9KtRzpofhrp1SRSqW0G/CjkhnR+K47ihe
+Zv08aUgUJg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2Ftw_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gj4nflAU88gfo2J3GAirVeVWKTz9RLzevFTdKot36l2WAhi+Ctwyl08FTEQWXD1dqdsnIKrsQLC/
+xYwQpDNPEQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2Ftw_btn_checkbox_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>g1oPkdpOIKV2gOT7cdeA4Qt5AKR/bn+XuKpUZJH/zslpvVROtVoFOkMtGN3E7MrwPUzVm2DWEdgt
+i+b3jioRoA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2Ftw_btn_checkbox_line_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ejNcbiOrkF/QVF8mqB0TKSOvZXOJRlZKf1qHSHzy96zceWWUFsCkJjJZrOpzIMTXMpbwcA43rB5a
+N2Nm7MUnqA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2Ftw_btn_radio_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>D8j4iXqytbjQNdp2DsBmCNzZFHm+mmoep08TADakjmwPrSeMe7wAZjZK4xO2JVU7+61YmyeTr/ba
+j/8wUC2zrQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2Ftw_btn_radiobox_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nEZvldmSH212GdQQTSyfqkSdDsZPCarZljezZPxiLQlqBJhqCNy+rv3hS6875ODW7A2RU49hP6g/
+RBH6S1IWBQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FController_icon%2Ftw_btn_radiobox_line.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>b0RqRCs55AHkFq13Nh8CtyBj1Rotw+tlucUgS79qytWG4KtiBEuFORcdTJ7oNG9e1faO0rRqVvog
+UZt5s1mQqQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FGrid%2Ftw_basic_grid_horizontal.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>39gtLQwOlf0bnEiM4g+//QgqQyCQ8Jg+FCzRrIfntabCaNNUnU+wTtxo0Zwtq8Udvw2hh4tDNUiG
+J8S40oLyGw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FGrid%2Ftw_basic_grid_vertical.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0lY3OdQw7R84MM72LM8c1ibYQv8glqHZZ9hfjLt7J1fCwrXg9Dopf+daXAaV3n4hniIi8xc4dp7T
+aCDOVtmg2Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FIndicator%2Fb_fast_scroll_rollover_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>IpRdOmW9NXBxBwNJaroxVDHTj11L6o55/ljTLBjpM8htEoLkDxPMUkgvIbKdT9e9PTdLn+xn8M+/
+ZX4xfAjfXg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FIndicator%2Fb_index_scroll_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>cYo2m49hEnDDMlrQGBUYDCCZciGp2yBAQxgzyIzN23k+62+1PFH4GLjFOhtCopbQ92GPKcgpBb1P
+CyFvmn61MA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FIndicator%2Findicator_horizontal_dot.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>I0Ycy8FrT+T8rEZPctTTpASeIyCUhYPg2hGk6/0KGLWiMTlCJhptPdNLsMb1jLDnqVVhQwJbuNCE
+0i27MXxsTQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FIndicator%2Findicator_horizontal_focus_dot.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JSlpNTimb03bE2awY9fWf83NheETzhsc8yM3dcitn7ZGpBIh43NcJMLjhQccjIhq2OCXa6xpsL6P
+rcrS2PkVGA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FIndicator%2Flist_scroll_triggle.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GsNTzzy6/S9LIw7vb98Jp6ZZW+/bJP7tXBsl0xP524SD5gwKxVDbGDiJgxL4ozSgDg4lTVGU3zcc
+wM2LDLe6mQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FList%2Fb_body_edge_shadow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yIW60Rd9f/6aep2DnZtlpDh+2dyWXEHKykuRl+VjkZnGgezSnEquy3s9TbOSRGGimv1VlEgxBoOg
+9LyzkyqW6w==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FList%2Fb_list_focus_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WY3jTjZO/kbuKM2XPKTS4Kl1KuWMvygsYYzPQDbKxShZ3hyQXDj4WdFxcIs40coOj9AlmeekMRi0
+aYXDIMybvA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FList%2Fb_list_focus_bg_108.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bz1q0XkysKDwiODHwTobJOeuprEH3l+uFVTDJqpd/U+3wKECQDMqbhd/wQ0YTXeYTPdxuuSfOmyH
+HlG8JcPoYA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FList%2Ftw_list_divider.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7g55hiN8YK49PJRWy9VhW+BALNGwFUD27aDiNKTlv4+K7aoG7UngOKMxgEOQHPLUeN1YzG2K9667
+j2Znlu5wTg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FList%2Ftw_list_sub_line_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vyjDLm6zhX08fYV2Sac8pJhNIoYCewwHHEV0GNZuv5VLon/E4q9fGPfF6a2cpiVSvKJ2+N4MdGea
+WLOG0H45cQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FList%2Ftw_list_sub_line_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>d55ARNXPlv/0kBa+dVhG5DaGEchlv9zZd7uXVDxuQLs3ueJ9xQU+eTOs/+OPCVSeAYTrUVCUmh3b
+QXCKKAFkJw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Fb_popup_edge_inner_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aZOVqbcr2Cym9cpI9PXugf1j06/SwKQxC1bu3W/9fPKnq8gKAjdavA/8GYw02Jquex9T5mdg/Igr
+vd/gh/5eiw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Fb_popup_edge_shadow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5mxmOQpZ3kbV51kesl60EKmRxQ4Ha7+MU4NVG2lpuI93Jakn+texk8BaLWHvjvJ86U5Wo9bxun+j
+vIKrzCwMyg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftoast_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DJFBJKAmYx6OgTI/L0edTNt9mdo090i5Na01JDGT588d9c+RlOQhvWZYNZScTCCQ3Ke89LwDWNAm
+Xo6z8ABKWw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_ic_popup_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uMQwiHJSbYd/ozGVKlH8V5rt3xVlYO0x9RxKPuwe+fVT+uNTXAHL9yKIe0LaCSjmsSxkyHrlbn+8
+rOxhsn6+QQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_ic_popup_btn_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kNWU5xLwr+GRuhy8VUU/Pe5O3DFGcJuiV86gJKFLsjwgeZr06JTLqmAhi8Dwerl6Hty6N3kTfC9p
+kh5P+1lb/Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_ic_popup_btn_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F4Lye4DoOwu1OXsz0x83p5enelFcEGUjGg4K1Z0/6l9eUI9uwH6sXqXZwDFBE3E2AMfP2vNGUkR5
+J7wmS9DVBA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_ic_popup_left_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>39I7y/GJkTP72ccKolH43zbR5E3KYk3x5oUs2wXLdFEWTCEzqPbOSJeT6Y2oxNBH7T54wosrCKhK
+cMvMXcuRvw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_ic_popup_right_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+/stZxY9FZX0T/kyUe9vPAqamZ/I8wvwT4WVDt+TATc2lQsIh4jkd2goykzRXT45eQa8ru7+0LBO
+zR3viKJS8Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_ic_toast_popup_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>k30qR9OOHDpZR8eYT52DdOAJOAtqezVHAaiRC8jJ5kDiI8GL6y02Lfu5utKl4kHUSXZg5jWvzm6v
+hC+Kn58bOQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fRrTDZiqjl1fUF3SVuLonuBLgAGIZjSY826HEtAryr9oUMVoBaoDwMwXHB7A59kVQ/6k9hsv81VY
+UDTGiL/bYQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_popup_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hXvsJATIFHBBDyXIShQ+vID+OC7gj87plz+VsDkKs24l26FVc7G1BDcTHKNlOvQuEHRaG3G5li9W
+pvbA8IAAYw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kWWUKlY7kzoArkVqgzgSoY7d2KruLiOdLpVO6K7cywmDpPr4ghGvGQIZVTKKI8QoYrvsmt3VrcLH
+rE728wUrqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zpLcJfm2wqRttIKczLhQB7Kr1PcNcskrcOovYtR7lFRzpXX6riSjlvR24fS0ZsfR2obuDNBG54tc
+0MrwbmhR1w==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_03.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pabRLMbQtwd/haJI2/JNtSh1QXhKyBRPHdGY4nT0pNzgcy0LLeGIJ/QkHlTw/TMPh6c57brCx2wR
+mvXT0lzeSA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_small_toast_popup_btn_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>G7+KLEF93Lj0YeWRr8qbG5ipDSJrrYVqfVyj3dxS/ggrQQ0rANWC8p5IUyPnpnxAkgBCICMpHYT5
+1ayIQCT7sA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_toast_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hwszs2VntS7Fej5mgWT+kOwAHvbv5+YWlLRhlgzJsKQqw/VR3rm2FrSAqBxJ8fpMQlVwmDqpu+Nq
+/36qF8lcwQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_toast_popup_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>im5xoe0nh/Y2n89otbywE3zMuu7CQL3xPooX4kkz4tAyxWT4UaZsDeUb8xlaDAkty/5zJ2dtdXIR
+nxIbGNjPAA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_toast_popup_image_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VkW8LUUwuBwGVxgGQbTO/h12Ql6mjVGDJfEqL+J4byFoEqjloYbk0ljWE6bn2jvdGrxpEdgJ4fV5
+xAtV9e4GBw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FPopup%2Ftw_toast_popup_outline.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dMnG5V1yEYYfB0m+98jxiKnJyB3qdMYSy0ITnJVl80lB3/X7WR1CZHKnHZdf9vkH2uc59aa1LXJN
+JW41NVTOLw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FProcessing%2Fprocessing_bar.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bvJHRMBX0T4N6X4QfE/Rnwf6G1d/80QPws/xbYWo2aTi/+Qxh0QArqT+mWtdgQgYe9Gg+/Eip4Dt
+fq3TwGwF5A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FProcessing%2Fprocessingfull.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aJaCnDVL5DNHJM/uyCuyPe9C7wVw7fb60CGLCSqWLr4OS+mEOint5+SqG5Z7ZWODk9XwLLjUJgMR
+DKF7Ljonqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FProcessing%2Fprocessingsmall.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>o8uVBDH/vslGzVaBVrYFgzE4JHpZlaROwC8alFMDPV7Zo1HOF/lRWAQR7IYhkd67qFlgGtT9PDEF
+SbVCC+oZ+Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_bottom_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LXpwC74UdvL1a5qFP09BhPsk+y4/VmmoMioZ8Ez7IR5poiMNDpFGpiZ1bCOcX/PMmUvGnmtnPTzY
+HFvk4xFYVg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_bottom_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+WeusvAtVjt2fF0OjK5a3RrwdET8fsu/rwIhTLlEyT2z4p390PWGq0UAm4QGrhRLTkDTEkvjEfRD
+AXeTfYk4Eg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_circle_bottom_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ix8zA6GHvN2TCif6o6Nj20Qn/Y6QqHSHIb+GVuPhQIsh7pE6gkRIJ3QGN4SFEBHePqVBbLaFQkOX
+Lmypy/TRwA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_circle_bottom_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JjO+5hZTuoUY7gvDJ1U520Z2+RiXgBEF+iUF4A7V9pxNOIDOIiaLPkKLPIGTJjCmACPd+54mHLr5
+uBgPTGp+TQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_circle_left_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ledEKDp+u35Ts5bCQGB0Vzn1/LwqE3cU7XukTlCGQM/hjlbP/PVsB7a73X6l6VLbxJaZ98EgDVz5
+mbRdwd475A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_circle_left_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1LV/DVLYe2WU4apzlg8FzS7oi1p5I+5rCrZF5gk3IvUDM/nd+oCiytLrykK8WFqnFkot8OYIimS3
+wEWFNCJRfg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_circle_right_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Qaw4GRK9NAVeaz9BDy/4aLvFSR1Wi3eS/97tSJTxzAHTQhQfwrtD0+9NxN6WajogkrqMGd6B9DPA
+fQKZbii+Ew==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_circle_right_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>BAJ0y0JhSK2RQCy/8nMUShHIzuEZr2B3FeDg7yPOsNiZpcTjLd5sid/L/kW97zm1nyNTYG8ZKLKw
+eGST7L1/tA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_circle_top_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/9tQoTIn1fJ73PyoKeqwZKHJbtyIKw5r4lBqVhlyFAzEfKziv7p30hRBNCBvn7vz6rMLfXnqbE1n
+aU5yCZN+vw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_circle_top_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZuYWDPUxLNaMgcGNZBAjciyYTRermA9bs61DqnLSNOXXkg1lt55maX7ahYkvlquXWVFsGXULwF7w
+1I7HGrnElQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_left_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WP33BfUjc/QeUaKWXA66+2oD9HD8km7WDMifcxcqPAi5aqahkuDOU/o61od6PLrP3RpRL+kpoDGo
+vq0/lS832Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_left_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>S2q1ZCeSxEjfzwE0Yg9F1sBycrNw0Wg9V8jaB7feDWmkGx4+xeXEFXSd5e4lideQen/pzVTI3nf4
+7yR0BZUaDQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_right_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZT6N9hVpy4tgjYgr5syhZRMPmu9kWt11X6tvMK5F13wMCABz7QLicKmN2ihuu1WxBPN77pTwyqcf
+nrtwxfGd7A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_right_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wT6M1w0EgOhpUisbrq/0Eev5nn3r4hTzxe3ssS+QCKgQ4L+vG6CkMrm+8zx9g8xZTOAV+kd/VdMF
+VfmI3YX1ew==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_top_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rj1KUZUZgLLwiA7MVQbs62l8hfm5w6R9DLXtgIIhks98Z0xe9xrcAUjXZPDKMSoV0T2VXk+4/O9i
+R8OXqSMWIQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FScroller%2Fbouncing_top_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Z4+9rIIfx8rleQl7sQHH9/JiMxlTkrJU9Dgp0OQtKv2veBP1EB74j7l8hKqv/ymgTeg0ydVxavn0
+0UKiBqrr0Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_add.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>jF0vWBvgBBqnUqQsTnWRJRKQ9zijmJHayHK/ijNz2J2lli376yO5dDBzO3r+6t5h6lCo6tYhqANM
+Ci1Bbnc1Gg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DTmddcWz+G+wIO1JAr2sF/a5ubywrIovuVeHw1d2RxyN4MAw904JiLy3CLWLdkbaOTEahZ2S4Vos
+zzpTQrtcWg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LEoNZqi5WaAQhpsH7CysvX9vfXnKypV4X4sTHB7FBhtlFONBGG5UQ7wTprJx1RpuloaoB+JdPMS0
+t4YZen4m1Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete_bg_ef.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1vPaIGkFgkEcwuZDK6ESnQ/Zh8I0hp9qjL7NTKVfaszq247XK2Sqnz+o1/eh+VOxqRAbwcJWBDbB
+cE58BMeWEg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSlider%2Fb_ic_press_full_circle_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DJVt390FNeOCx2sErPqwKimwBi+3ubbSJhWfJhJdUAp64TlNZxnBPMU2opPKMR7aJGJqftvU27Fn
+jAQE8ARbWw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSlider%2Fb_slider_icon_minus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3CQMHjoY3A3yngZeLLZN1qOTndXIgxZSt8kNItvpKT2MbjC1QM0kJyk6qf2B7XaMhnE23SqV9tGn
+3e4Wr2d14g==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSlider%2Fb_slider_icon_plus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>xXKqHQZmu+yZTcCy11gYF4a7SlRWrUb01SAtw7AnmytUmv/uUvVQ8/oR22+jfOpM8WdKbCaXdKkU
+9WTVrib4Lw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSwipelist%2Fb_logs_icon_actionbar_btn_msg_nor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>lS9dNclejI4wRwy3e9dxf6Z0eniqN5FLQ1vf49NAz6Kb6IZVrAhLnElPF+8xTLKC/+cj+6muT5Sb
+vevNmVtjuA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FSwipelist%2Fb_logs_icon_body_btn_call_nor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hSKZpPaQWUmI0JU7fGfUrKUFkNqN5r/75TtmZUa6Nj4/iFizGrv5tdJLnYdm+NQWtSua67/ysvZH
+vMCxupWfDw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FTextInput%2Fb_list_edit_field_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GdYpD3RzlMaQL3OunDwQHEw1wXnfCcpm+RRlVJKsTjm9cUWjXzgcRKQc5vw9GviwiV5mNBrNnKN5
+U5qapDniag==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FTimePicker%2Ftime_picker_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>162sNqyYv/d/hOPo8wOZQ+T7dzMHWxdxJODqU910YYNpQC5qVrKAQZ7glLNm9RMjo2Qpz7hrHsx8
+ngTsbxHltw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2FTitle_bar%2Fb_detail_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Yt9aGAKVBliTdKkKj58Kcarq+rwuGIj5EdaOiO8FI76mqWPCnki1eTir7vjDAoDSPwZykojQky0A
+Dt3ZltUrdA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2Fdimmer%2Flightbulb.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>X+TkW5A1pRDCpl8ekWgzuio+YLebxP1dVynuPYDXGKmiblj6xCFnQPv/r6R48sppw6SYNoyff11O
+wzCxxbjxGg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2Fgo_to_top_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nWwEhuNORQ1swc59AN3X5bcAvggs4L8X+SaF9aR/RJB0tSuOURd1RwMf6clQLhV7gw+/CpSoh4in
+mk/NdGQhMg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2Fgo_to_top_white.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3JV9iQFRiRLqWsWB1X/jomQGT2kf6Fl5av0qCcaMc3JxQhXTtjY8W5BcD/R4M3XzBGBkjQQ3pGSb
+9QXPhObUjA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2Findicator_fast_scroll_arrow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Np9ZuZhOQ7KD9n97V7z0JcDhTu3M4TOis0sbShcsVYxAE+ufpxu7mQxK8TL+6ol/QWigud+AO936
+uOhYYBlMXg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2Findicator_fast_scroll_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0saUaqHtXnr3uzqTxbUJ6vxG2nlioOGdzLCVxjrwHlkrdWGIMhBhXQlLg+F54uEEzIwP4pT/yCLV
+99FBNfF2eQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Fimages%2Fprimary_assist_btn.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VgD54yDxIpJ2yL2qx8zel6seMM4GVUf8yRVDzZvC8nDzJ+LP+fwxuMjZ5NHwWP2XrHk8Td8Nj0/+
+SRQWAYHXPA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Ftau.circle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>eBGHjXZH17ADPKrZpJhgO/3C0ISrcN/AvF0UtHWWnfRVUcwI25inSozSCBYK31OJwTH4isWru7gC
+Q6WleS9Nlg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Ftau.circle.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wOX+cPXNWeuaaTLoDLfrQ5tnp873DCOR6f+VUM3GFffRPmrsrHTQeA/gQwCL/T+c1qrN2UFva4/7
+Iy+TOD80jg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Ftau.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PG6gujuSV8uaVAPgLtfm63auoOGpTWJnux/q3qACOepb4O8klGW33OGq1g8MdwVBf9PqE+zwtlZ5
+OSoYuLsfLA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fchangeable%2Ftau.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>L3YpRmP0odsCTsWf1uuuQtweG3O1j1ZC/52oE1k7jtk90HEtSjs0cvF5bFrB5a3nyWvdCW/wMIPj
+0UpcWlpI6Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FActionbar%2Fb_more_option.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>v1ZR0GUGPVExz5CyLi1/Np6fSDAOGMokKhUcO3Db3+BiF3k2TuypDeBtF9KeTy/Xvp6XBU9pLsE0
+aJ8rRWvpLA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FActionbar%2Ftw_ic_menu_moreoverflow_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>raUQIWeqzgSS2X6S+CGPSQhtnCh538VM2343zd9CAifaWyA1thMfvc2GIVvbnViWYRm7J47qOxoa
+VgE0V612ZA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FBottom_button%2Ftw_bottom_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qb6bvYBlfUhc2HVA0ci55hSUs21cRGhOYJgJ3SV2V4/5kmy46nXPXX62yZ31byyGMxQ+dp8N94Rp
+l64yqS7mtg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FCommon%2Fb_more_option_btn_next_page.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>u1i9AZb29mMv2ISh54awCQSWG0/Vzs3eIy57VPlq9s84B4tA8e4qa9w9qZsr60no7emYU9PEfHI/
+coReQXVU/A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FCommon%2Fb_more_option_btn_previous_page.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>52TajmBPX1jTPHFaBuKuPXV6Lo+zYhimNGFhxZ0o5W31brk+xPGHNg2guwocVBrrMzt80YUi2k9s
+tKqJd+viyw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FCommon%2Fb_rotary_selector_center_pointer.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aYzWRIs3+lmJbbOExven/8APvc7gX39cFjIzBpXt62loT0MwBfprNxVv3Tuu0RbIYooZJpWtjTJe
+t5gFOPHwoA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FCommon%2Fmasking_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5Xo5BkWLd3cw2IsRCoyjx1JwAjt/l4imoNJ9I6tqWQxe6iDcLtxI3PUEwfwaexXJrIuvF4tFlUzj
+jGHHcRJF8Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FCommon%2Ftw_no_item_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1ez/5Wufa5sjJSeMGmYKeqG+gilaBRs7K/nHLPupsO48W/ah6d3XHGqqdiW+ydGi/Qob61UBgDOd
+nnPSDPD/gA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2FCheck%2Fref_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>n5G38ZtxVXfnC813f4TjvUzoSQD+UcqxyW8PijT4OF6mIyGW7NNZH5dsd50rFWa1DGJgh0tdV3HP
++UDMhnkX7Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2FCheck%2Ftw_btn_check_bg_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZshxsQEjcb61+V+zIVIDHJw/0nF7dk5Fxgi43hHxpao1C/OF3YnNV3aERGX8gP/Jwy6hwA3Wbnz
+S0q2BdC9Ww==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2FCheck%2Ftw_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>NrGP/f6Bbh3SLdy0SiMFco77VpwArTQGmly148tG9GYEHDoidF13jP3pqXsJ5S/ixtuTyHxhhuIe
+SJ10NcorGQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_bg_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oZshxsQEjcb61+V+zIVIDHJw/0nF7dk5Fxgi43hHxpao1C/OF3YnNV3aERGX8gP/Jwy6hwA3Wbnz
+S0q2BdC9Ww==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_off_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ccCRPyujLs8P4XBQ6B3R49+w95sMZm7u0wvk9W0jl99t2aRIDOD8H/H3bk1RigZWoeq/cil5EKqn
+I6jHdXrY3Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2FOn_Off%2Ftw_btn_control_on_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iutaM0XxSOyp3Gq8HAal0WH7yX1VbdDNzALiWABwMCKZkEA1gyeJe4n/ZqeH9XVw2hZ+RIVuFbuU
+9V4XEjaupw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2FRadio%2Ftw_btn_radio_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WQPUj4zv2+12JapcZfQWC3pOgiJXoIUa6XCUGwpMZQp1A7MngFTf9jSAe3DJVVJ53cZndIIIIdia
+6SABjqlkRw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2Ftoggle_changeable.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3yxbWkwgZtbNBOt/g5ODckRezL/eRN1s82IXFFMG4EX9KtRzpofhrp1SRSqW0G/CjkhnR+K47ihe
+Zv08aUgUJg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2Ftw_btn_check_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gj4nflAU88gfo2J3GAirVeVWKTz9RLzevFTdKot36l2WAhi+Ctwyl08FTEQWXD1dqdsnIKrsQLC/
+xYwQpDNPEQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2Ftw_btn_checkbox_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>g1oPkdpOIKV2gOT7cdeA4Qt5AKR/bn+XuKpUZJH/zslpvVROtVoFOkMtGN3E7MrwPUzVm2DWEdgt
+i+b3jioRoA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2Ftw_btn_checkbox_line_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ejNcbiOrkF/QVF8mqB0TKSOvZXOJRlZKf1qHSHzy96zceWWUFsCkJjJZrOpzIMTXMpbwcA43rB5a
+N2Nm7MUnqA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2Ftw_btn_radio_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>D8j4iXqytbjQNdp2DsBmCNzZFHm+mmoep08TADakjmwPrSeMe7wAZjZK4xO2JVU7+61YmyeTr/ba
+j/8wUC2zrQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2Ftw_btn_radiobox_holo_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nEZvldmSH212GdQQTSyfqkSdDsZPCarZljezZPxiLQlqBJhqCNy+rv3hS6875ODW7A2RU49hP6g/
+RBH6S1IWBQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FController_icon%2Ftw_btn_radiobox_line.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>b0RqRCs55AHkFq13Nh8CtyBj1Rotw+tlucUgS79qytWG4KtiBEuFORcdTJ7oNG9e1faO0rRqVvog
+UZt5s1mQqQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FGrid%2Ftw_basic_grid_horizontal.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>39gtLQwOlf0bnEiM4g+//QgqQyCQ8Jg+FCzRrIfntabCaNNUnU+wTtxo0Zwtq8Udvw2hh4tDNUiG
+J8S40oLyGw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FGrid%2Ftw_basic_grid_vertical.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0lY3OdQw7R84MM72LM8c1ibYQv8glqHZZ9hfjLt7J1fCwrXg9Dopf+daXAaV3n4hniIi8xc4dp7T
+aCDOVtmg2Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FIndicator%2Fb_fast_scroll_rollover_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>IpRdOmW9NXBxBwNJaroxVDHTj11L6o55/ljTLBjpM8htEoLkDxPMUkgvIbKdT9e9PTdLn+xn8M+/
+ZX4xfAjfXg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FIndicator%2Fb_index_scroll_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>cYo2m49hEnDDMlrQGBUYDCCZciGp2yBAQxgzyIzN23k+62+1PFH4GLjFOhtCopbQ92GPKcgpBb1P
+CyFvmn61MA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FIndicator%2Findicator_horizontal_dot.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>I0Ycy8FrT+T8rEZPctTTpASeIyCUhYPg2hGk6/0KGLWiMTlCJhptPdNLsMb1jLDnqVVhQwJbuNCE
+0i27MXxsTQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FIndicator%2Findicator_horizontal_focus_dot.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JSlpNTimb03bE2awY9fWf83NheETzhsc8yM3dcitn7ZGpBIh43NcJMLjhQccjIhq2OCXa6xpsL6P
+rcrS2PkVGA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FIndicator%2Flist_scroll_triggle.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GsNTzzy6/S9LIw7vb98Jp6ZZW+/bJP7tXBsl0xP524SD5gwKxVDbGDiJgxL4ozSgDg4lTVGU3zcc
+wM2LDLe6mQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FList%2Fb_body_edge_shadow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yIW60Rd9f/6aep2DnZtlpDh+2dyWXEHKykuRl+VjkZnGgezSnEquy3s9TbOSRGGimv1VlEgxBoOg
+9LyzkyqW6w==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FList%2Fb_list_focus_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WY3jTjZO/kbuKM2XPKTS4Kl1KuWMvygsYYzPQDbKxShZ3hyQXDj4WdFxcIs40coOj9AlmeekMRi0
+aYXDIMybvA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FList%2Fb_list_focus_bg_108.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bz1q0XkysKDwiODHwTobJOeuprEH3l+uFVTDJqpd/U+3wKECQDMqbhd/wQ0YTXeYTPdxuuSfOmyH
+HlG8JcPoYA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FList%2Ftw_list_divider.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7g55hiN8YK49PJRWy9VhW+BALNGwFUD27aDiNKTlv4+K7aoG7UngOKMxgEOQHPLUeN1YzG2K9667
+j2Znlu5wTg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FList%2Ftw_list_sub_line_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vyjDLm6zhX08fYV2Sac8pJhNIoYCewwHHEV0GNZuv5VLon/E4q9fGPfF6a2cpiVSvKJ2+N4MdGea
+WLOG0H45cQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FList%2Ftw_list_sub_line_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>d55ARNXPlv/0kBa+dVhG5DaGEchlv9zZd7uXVDxuQLs3ueJ9xQU+eTOs/+OPCVSeAYTrUVCUmh3b
+QXCKKAFkJw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Fb_popup_edge_inner_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aZOVqbcr2Cym9cpI9PXugf1j06/SwKQxC1bu3W/9fPKnq8gKAjdavA/8GYw02Jquex9T5mdg/Igr
+vd/gh/5eiw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Fb_popup_edge_shadow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5mxmOQpZ3kbV51kesl60EKmRxQ4Ha7+MU4NVG2lpuI93Jakn+texk8BaLWHvjvJ86U5Wo9bxun+j
+vIKrzCwMyg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftoast_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DJFBJKAmYx6OgTI/L0edTNt9mdo090i5Na01JDGT588d9c+RlOQhvWZYNZScTCCQ3Ke89LwDWNAm
+Xo6z8ABKWw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_ic_popup_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uMQwiHJSbYd/ozGVKlH8V5rt3xVlYO0x9RxKPuwe+fVT+uNTXAHL9yKIe0LaCSjmsSxkyHrlbn+8
+rOxhsn6+QQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_ic_popup_btn_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kNWU5xLwr+GRuhy8VUU/Pe5O3DFGcJuiV86gJKFLsjwgeZr06JTLqmAhi8Dwerl6Hty6N3kTfC9p
+kh5P+1lb/Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_ic_popup_btn_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F4Lye4DoOwu1OXsz0x83p5enelFcEGUjGg4K1Z0/6l9eUI9uwH6sXqXZwDFBE3E2AMfP2vNGUkR5
+J7wmS9DVBA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_ic_popup_left_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>39I7y/GJkTP72ccKolH43zbR5E3KYk3x5oUs2wXLdFEWTCEzqPbOSJeT6Y2oxNBH7T54wosrCKhK
+cMvMXcuRvw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_ic_popup_right_btn_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+/stZxY9FZX0T/kyUe9vPAqamZ/I8wvwT4WVDt+TATc2lQsIh4jkd2goykzRXT45eQa8ru7+0LBO
+zR3viKJS8Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_ic_toast_popup_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>k30qR9OOHDpZR8eYT52DdOAJOAtqezVHAaiRC8jJ5kDiI8GL6y02Lfu5utKl4kHUSXZg5jWvzm6v
+hC+Kn58bOQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fRrTDZiqjl1fUF3SVuLonuBLgAGIZjSY826HEtAryr9oUMVoBaoDwMwXHB7A59kVQ/6k9hsv81VY
+UDTGiL/bYQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_popup_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hXvsJATIFHBBDyXIShQ+vID+OC7gj87plz+VsDkKs24l26FVc7G1BDcTHKNlOvQuEHRaG3G5li9W
+pvbA8IAAYw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kWWUKlY7kzoArkVqgzgSoY7d2KruLiOdLpVO6K7cywmDpPr4ghGvGQIZVTKKI8QoYrvsmt3VrcLH
+rE728wUrqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zpLcJfm2wqRttIKczLhQB7Kr1PcNcskrcOovYtR7lFRzpXX6riSjlvR24fS0ZsfR2obuDNBG54tc
+0MrwbmhR1w==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_small_toast_popup_bg_03.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pabRLMbQtwd/haJI2/JNtSh1QXhKyBRPHdGY4nT0pNzgcy0LLeGIJ/QkHlTw/TMPh6c57brCx2wR
+mvXT0lzeSA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_small_toast_popup_btn_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>G7+KLEF93Lj0YeWRr8qbG5ipDSJrrYVqfVyj3dxS/ggrQQ0rANWC8p5IUyPnpnxAkgBCICMpHYT5
+1ayIQCT7sA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_toast_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hwszs2VntS7Fej5mgWT+kOwAHvbv5+YWlLRhlgzJsKQqw/VR3rm2FrSAqBxJ8fpMQlVwmDqpu+Nq
+/36qF8lcwQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_toast_popup_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>im5xoe0nh/Y2n89otbywE3zMuu7CQL3xPooX4kkz4tAyxWT4UaZsDeUb8xlaDAkty/5zJ2dtdXIR
+nxIbGNjPAA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_toast_popup_image_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VkW8LUUwuBwGVxgGQbTO/h12Ql6mjVGDJfEqL+J4byFoEqjloYbk0ljWE6bn2jvdGrxpEdgJ4fV5
+xAtV9e4GBw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FPopup%2Ftw_toast_popup_outline.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dMnG5V1yEYYfB0m+98jxiKnJyB3qdMYSy0ITnJVl80lB3/X7WR1CZHKnHZdf9vkH2uc59aa1LXJN
+JW41NVTOLw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FProcessing%2Fprocessing_bar.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bvJHRMBX0T4N6X4QfE/Rnwf6G1d/80QPws/xbYWo2aTi/+Qxh0QArqT+mWtdgQgYe9Gg+/Eip4Dt
+fq3TwGwF5A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FProcessing%2Fprocessingfull.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aJaCnDVL5DNHJM/uyCuyPe9C7wVw7fb60CGLCSqWLr4OS+mEOint5+SqG5Z7ZWODk9XwLLjUJgMR
+DKF7Ljonqw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FProcessing%2Fprocessingsmall.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>o8uVBDH/vslGzVaBVrYFgzE4JHpZlaROwC8alFMDPV7Zo1HOF/lRWAQR7IYhkd67qFlgGtT9PDEF
+SbVCC+oZ+Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_bottom_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LXpwC74UdvL1a5qFP09BhPsk+y4/VmmoMioZ8Ez7IR5poiMNDpFGpiZ1bCOcX/PMmUvGnmtnPTzY
+HFvk4xFYVg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_bottom_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+WeusvAtVjt2fF0OjK5a3RrwdET8fsu/rwIhTLlEyT2z4p390PWGq0UAm4QGrhRLTkDTEkvjEfRD
+AXeTfYk4Eg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_circle_bottom_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ix8zA6GHvN2TCif6o6Nj20Qn/Y6QqHSHIb+GVuPhQIsh7pE6gkRIJ3QGN4SFEBHePqVBbLaFQkOX
+Lmypy/TRwA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_circle_bottom_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JjO+5hZTuoUY7gvDJ1U520Z2+RiXgBEF+iUF4A7V9pxNOIDOIiaLPkKLPIGTJjCmACPd+54mHLr5
+uBgPTGp+TQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_circle_left_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ledEKDp+u35Ts5bCQGB0Vzn1/LwqE3cU7XukTlCGQM/hjlbP/PVsB7a73X6l6VLbxJaZ98EgDVz5
+mbRdwd475A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_circle_left_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1LV/DVLYe2WU4apzlg8FzS7oi1p5I+5rCrZF5gk3IvUDM/nd+oCiytLrykK8WFqnFkot8OYIimS3
+wEWFNCJRfg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_circle_right_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Qaw4GRK9NAVeaz9BDy/4aLvFSR1Wi3eS/97tSJTxzAHTQhQfwrtD0+9NxN6WajogkrqMGd6B9DPA
+fQKZbii+Ew==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_circle_right_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>BAJ0y0JhSK2RQCy/8nMUShHIzuEZr2B3FeDg7yPOsNiZpcTjLd5sid/L/kW97zm1nyNTYG8ZKLKw
+eGST7L1/tA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_circle_top_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/9tQoTIn1fJ73PyoKeqwZKHJbtyIKw5r4lBqVhlyFAzEfKziv7p30hRBNCBvn7vz6rMLfXnqbE1n
+aU5yCZN+vw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_circle_top_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZuYWDPUxLNaMgcGNZBAjciyYTRermA9bs61DqnLSNOXXkg1lt55maX7ahYkvlquXWVFsGXULwF7w
+1I7HGrnElQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_left_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WP33BfUjc/QeUaKWXA66+2oD9HD8km7WDMifcxcqPAi5aqahkuDOU/o61od6PLrP3RpRL+kpoDGo
+vq0/lS832Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_left_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>S2q1ZCeSxEjfzwE0Yg9F1sBycrNw0Wg9V8jaB7feDWmkGx4+xeXEFXSd5e4lideQen/pzVTI3nf4
+7yR0BZUaDQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_right_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZT6N9hVpy4tgjYgr5syhZRMPmu9kWt11X6tvMK5F13wMCABz7QLicKmN2ihuu1WxBPN77pTwyqcf
+nrtwxfGd7A==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_right_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wT6M1w0EgOhpUisbrq/0Eev5nn3r4hTzxe3ssS+QCKgQ4L+vG6CkMrm+8zx9g8xZTOAV+kd/VdMF
+VfmI3YX1ew==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_top_edge.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rj1KUZUZgLLwiA7MVQbs62l8hfm5w6R9DLXtgIIhks98Z0xe9xrcAUjXZPDKMSoV0T2VXk+4/O9i
+R8OXqSMWIQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FScroller%2Fbouncing_top_glow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Z4+9rIIfx8rleQl7sQHH9/JiMxlTkrJU9Dgp0OQtKv2veBP1EB74j7l8hKqv/ymgTeg0ydVxavn0
+0UKiBqrr0Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_add.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>jF0vWBvgBBqnUqQsTnWRJRKQ9zijmJHayHK/ijNz2J2lli376yO5dDBzO3r+6t5h6lCo6tYhqANM
+Ci1Bbnc1Gg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DTmddcWz+G+wIO1JAr2sF/a5ubywrIovuVeHw1d2RxyN4MAw904JiLy3CLWLdkbaOTEahZ2S4Vos
+zzpTQrtcWg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LEoNZqi5WaAQhpsH7CysvX9vfXnKypV4X4sTHB7FBhtlFONBGG5UQ7wTprJx1RpuloaoB+JdPMS0
+t4YZen4m1Q==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSelector%2Fb_rotary_selector_edit_mode_ic_delete_bg_ef.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1vPaIGkFgkEcwuZDK6ESnQ/Zh8I0hp9qjL7NTKVfaszq247XK2Sqnz+o1/eh+VOxqRAbwcJWBDbB
+cE58BMeWEg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSlider%2Fb_ic_press_full_circle_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DJVt390FNeOCx2sErPqwKimwBi+3ubbSJhWfJhJdUAp64TlNZxnBPMU2opPKMR7aJGJqftvU27Fn
+jAQE8ARbWw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSlider%2Fb_slider_icon_minus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3CQMHjoY3A3yngZeLLZN1qOTndXIgxZSt8kNItvpKT2MbjC1QM0kJyk6qf2B7XaMhnE23SqV9tGn
+3e4Wr2d14g==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSlider%2Fb_slider_icon_plus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>xXKqHQZmu+yZTcCy11gYF4a7SlRWrUb01SAtw7AnmytUmv/uUvVQ8/oR22+jfOpM8WdKbCaXdKkU
+9WTVrib4Lw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSwipelist%2Fb_logs_icon_actionbar_btn_msg_nor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>lS9dNclejI4wRwy3e9dxf6Z0eniqN5FLQ1vf49NAz6Kb6IZVrAhLnElPF+8xTLKC/+cj+6muT5Sb
+vevNmVtjuA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FSwipelist%2Fb_logs_icon_body_btn_call_nor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hSKZpPaQWUmI0JU7fGfUrKUFkNqN5r/75TtmZUa6Nj4/iFizGrv5tdJLnYdm+NQWtSua67/ysvZH
+vMCxupWfDw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FTextInput%2Fb_list_edit_field_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GdYpD3RzlMaQL3OunDwQHEw1wXnfCcpm+RRlVJKsTjm9cUWjXzgcRKQc5vw9GviwiV5mNBrNnKN5
+U5qapDniag==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FTimePicker%2Ftime_picker_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>162sNqyYv/d/hOPo8wOZQ+T7dzMHWxdxJODqU910YYNpQC5qVrKAQZ7glLNm9RMjo2Qpz7hrHsx8
+ngTsbxHltw==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2FTitle_bar%2Fb_detail_bg_cover.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Yt9aGAKVBliTdKkKj58Kcarq+rwuGIj5EdaOiO8FI76mqWPCnki1eTir7vjDAoDSPwZykojQky0A
+Dt3ZltUrdA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2Fdimmer%2Flightbulb.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>X+TkW5A1pRDCpl8ekWgzuio+YLebxP1dVynuPYDXGKmiblj6xCFnQPv/r6R48sppw6SYNoyff11O
+wzCxxbjxGg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2Fgo_to_top_dark.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nWwEhuNORQ1swc59AN3X5bcAvggs4L8X+SaF9aR/RJB0tSuOURd1RwMf6clQLhV7gw+/CpSoh4in
+mk/NdGQhMg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2Fgo_to_top_white.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3JV9iQFRiRLqWsWB1X/jomQGT2kf6Fl5av0qCcaMc3JxQhXTtjY8W5BcD/R4M3XzBGBkjQQ3pGSb
+9QXPhObUjA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2Findicator_fast_scroll_arrow.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Np9ZuZhOQ7KD9n97V7z0JcDhTu3M4TOis0sbShcsVYxAE+ufpxu7mQxK8TL+6ol/QWigud+AO936
+uOhYYBlMXg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2Findicator_fast_scroll_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0saUaqHtXnr3uzqTxbUJ6vxG2nlioOGdzLCVxjrwHlkrdWGIMhBhXQlLg+F54uEEzIwP4pT/yCLV
+99FBNfF2eQ==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Fimages%2Fprimary_assist_btn.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VgD54yDxIpJ2yL2qx8zel6seMM4GVUf8yRVDzZvC8nDzJ+LP+fwxuMjZ5NHwWP2XrHk8Td8Nj0/+
+SRQWAYHXPA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Ftau.circle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>q0KxiN8qLhHL2XJxvENV7uPHZJrmFnfbaQtjEFMkPPibBHZlRYGsboP6Du8LxBQ62+uuy+5HiTkL
+NMj2p8bp5g==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Ftau.circle.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>a8uuSRDExAQICTmdoEb8DM0u5ahlgunSVR3n37k4w5tlbRlXyDB/mQwLhp5a81F+D3X4Wb/KTBtT
+0drQKBuISg==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Ftau.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PG6gujuSV8uaVAPgLtfm63auoOGpTWJnux/q3qACOepb4O8klGW33OGq1g8MdwVBf9PqE+zwtlZ5
+OSoYuLsfLA==</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Ftau.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>L3YpRmP0odsCTsWf1uuuQtweG3O1j1ZC/52oE1k7jtk90HEtSjs0cvF5bFrB5a3nyWvdCW/wMIPj
+0UpcWlpI6Q==</DigestValue>
+</Reference>
+<Reference URI="shared%2Fres%2Fopenseizuredetector_tizen.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>BTGBG483ma/3HgWnreWF2xbdzr4F0gTRWjwxoSV+7kKBWt4UJTuv5WE4DhKdU4in2kwn/55O/qPD
+bNc/wgCuGg==</DigestValue>
+</Reference>
+<Reference URI="tizen-manifest.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>CX2yPwj7d522oIHvYpgRpqbT1Bu6XSkAeyX7VV2Gh4jstpEDGzPBd6/DbiX5lQdpzzktoAtpX8zt
+36FExh1Qwg==</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/r5npk2VVA46QFJnejgONBEh4BWtjrtu9x/IFeLksjWyGmB/cMWKSJWQl7aU3YRQRZ3AesG8gF7q
+GyvKX9Snig==</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+NkUZR6BgVDtcWK+R9QbWRJEHKE0cNCmUMzapDx/UDfYQBRk4xaHUg2U+NQoHM3Oovu9cPQlIt2oT
+9M31rSovl1Z3yaw5jOR9dL8+Gwnub/XvX/wOzHcTCtnW+C0vPZXgUKaOfRcjQQYJXWaqdO/r6G1m
+539VDfQLFnf1YwWdT530+CfDXsFf9WF4gNXuQsGQV/HjVQFgZ/HUSnoM2TOwaOq0aemfQ4djqugN
+kFrZz9av/H2184fjlq+ykEh6z5bsHSqHM/wytrobk9e682m177Vjnw3c3WK7BCxsS8uNkwF3yxb6
+DPeZ9l8Gz4Hdb+X9RuubUYjmVPEDrrJdArf56Q==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIEFzCCAv+gAwIBAgIBZTANBgkqhkiG9w0BAQ0FADCBnjELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
+cyBDby4sIEx0ZC4xDzANBgNVBAsMBk1vYmlsZTEwMC4GA1UEAwwnU2Ftc3VuZyBUaXplbiBERVZF
+TE9QRVIgUHVibGljIENBIENsYXNzMB4XDTIwMTEwODE3NTE0N1oXDTIxMTEwODE3NTE0N1owazER
+MA8GA1UEAwwIVGl6ZW5TREsxCTAHBgNVBAsMADEJMAcGA1UECgwAMQkwBwYDVQQHDAAxCTAHBgNV
+BAgMADEJMAcGA1UEBhMAMR8wHQYJKoZIhvcNAQkBFhBqdS5kYW5uZXJAd2ViLmRlMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn9m3ukcua6nvq85YHh5Tl5O+JH3Hy85EfTsJQXc6vNyj
+Z/ws6ywzNaw7iWdu1o6Ew02bmUwWR2MG+Icr3ecLRPOHvR/V2D+X0yDCzdcnobQxJNVHHShbPyxc
+oo0IwsjANx1UGqh+OptZycxmKubCpCuWRJs8ygg1m1ve6jawy/KcQNgwkkDwLGOR6ESR8oXsonog
+nGZ68GzCYu1aAlfY3ThMgOQMeC63s+y1m4QIiSpII2uKU3CxorSxExO5Ru9siXlcBsbTwXQOoQvX
+mb6rJix6CUjWIRrhuucjhU/0mwPfRjrN1BkdHLlGEHn0eRBWrQ8zDedbwM6Wn/9xIwVmQQIDAQAB
+o4GRMIGOMIGLBgNVHREEgYMwgYCGFFVSTjp0aXplbjpwYWNrYWdlaWQ9hjNVUk46dGl6ZW46ZGV2
+aWNlaWQ9Mi4wI0dwckNUT2xsU0dLaG04VFFvRzl0aERVN1EwZz2GM1VSTjp0aXplbjpkZXZpY2Vp
+ZD0yLjAjL2JHWnIrMXNGeVZMeHdrT2N0UFhnaWV1Y2dvPTANBgkqhkiG9w0BAQ0FAAOCAQEAg7Jl
+Cyc+nj2304lYbY4e3bHSLNy1ySNlkFsgM5eAe9C6r02UMPzUGwP3QUOqOOa9Fca+IykGhXLAkHFM
+/BRdRtMwys8WbBSEynpfLEwtrO1MtTVYVOGoVfp9oF+i/nZq4GoxA2lwaDXjbfv1lxg5Njk37LY+
+uJIUdegTYnJ+CoxLTYhrA9HAmNGRs5E0POaiHGQgnEmmmx8C8qZKDfrYb5qezXLThyy04jyJED0z
+P9zSD6pca8nbdTVGaTAqT0VIKiJeQxV6L+YgmDD2OC+HEEoP4lDYARq1o8Rws1WrmnTDOSc2g9jC
+AY2Mcxbj+6e7EgVCzfBurO4cLWDIvtmklA==
+</X509Certificate>
+<X509Certificate>
+MIIDuzCCAqOgAwIBAgICL+cwDQYJKoZIhvcNAQELBQAwgY8xCzAJBgNVBAYTAktSMRQwEgYDVQQI
+DAtTb3V0aCBLb3JlYTEOMAwGA1UEBwwFU3V3b24xJjAkBgNVBAoMHVNhbXN1bmcgRWxlY3Ryb25p
+Y3MgQ28uLCBMdGQuMTIwMAYDVQQDDClTYW1zdW5nIFRpemVuIERFVkVMT1BFUiBQdWJsaWMgUm9v
+dCBDbGFzczAeFw0xMzEyMzAxNTAxNDdaFw0yODEyMjYxNTAxNDdaMIGeMQswCQYDVQQGEwJLUjEU
+MBIGA1UECAwLU291dGggS29yZWExDjAMBgNVBAcMBVN1d29uMSYwJAYDVQQKDB1TYW1zdW5nIEVs
+ZWN0cm9uaWNzIENvLiwgTHRkLjEPMA0GA1UECwwGTW9iaWxlMTAwLgYDVQQDDCdTYW1zdW5nIFRp
+emVuIERFVkVMT1BFUiBQdWJsaWMgQ0EgQ2xhc3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCkqW9d0zO5NFOc7u164DKe9Yx+yEgUnsbhnJasqHaqT71qaMxyCOjyysZi7gGycDcgmLcU
+tr2wSMTGWPibK8SrJ8bV/J1cy9nTpljM3s+lbPIVVxZeufhJkU79tXImHLolERd0vui+rj0Xpd9O
+zlyNTRt0+PWVT1taWcbfHL7pUD25hMkTc8C3bC+dUoT1/RhCkXgmUvIor3EnnU0rBtAl4qNtg5y1
+7RLT8dyicieAHCcW923YC/ngMZxnBjbL2Ht1RBUvrL6K3X5+l0VeF4qC3g7TKm/a/SGjq12ZD4sc
+7rglzjSNlTVSGag6/2WkqxE6HheEBWaloYOdauzwydFNAgMBAAGjEDAOMAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBAG88wKjKeTbj5I6wMEvRihd+gWrESJX3bXUSlHWjUfYKcvg3GzM9
+cdooscqJdYgN8ezQuYiJQRk7BaPHSlPGkchsPUjvSM6WvIn9IT+VsEuVBrZNbZMSv6lM6wNig3TE
+h2OxFTW6Bt8mCZB74EP2wb+39Fr5aJwWvmkxQjct3/O+GYPQhe0Lu1qpbbMhzafYYybSmO+om02V
+cTWyJ/vtLUNyGfN7aHyBm6PFE5piAfpBaO9Az+zWil1HOsnzu1tGGnyV6IzQ/UiIo5P2sD8I5lEO
+Xdf9Eicy9y5z2Ci2zrmDcAGWL8o5wOWrCqML2ijximFzyQ/swlMC9xBIX9RCFws=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#DistributorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#DistributorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-distributor"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#DistributorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>

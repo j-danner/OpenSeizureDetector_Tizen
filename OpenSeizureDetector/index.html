@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+	<title>
+		Epilarm UI
+	</title>
+	<link href="lib/tau/wearable/theme/default/tau.min.css" rel="stylesheet" />
+	<link href="lib/tau/wearable/theme/default/tau.circle.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/style.circle.css" rel="stylesheet" />
+	<script src="js/circle-helper.js"></script>
+	<script src="lib/tau/wearable/js/tau.min.js"></script>
+	
+	<!-- custom scipts -->
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+	<!--  main page -->
+	<div id="main" class="ui-page" data-go-to-top-button="true">
+		<header class="ui-header">
+			<h2 class="ui-title">
+				Epilarm
+			</h2>
+		</header>
+		<div class="ui-content">
+			<ul class="ui-listview" id="main_list">
+				<li class="li-has-toggle ui-li-grid ui-li-grid-full" id="start_stop">
+					<div>
+						Seizure-Detection
+					</div>
+					<div class="ui-toggleswitch">
+                        <input type="checkbox" class="ui-switch-input" id="start_stop_checkbox"/>
+						<div class="ui-switch-button"> </div>
+					</div>
+				</li>
+
+				<li class="li-has-toggle ui-li-grid ui-li-grid-full" id="automatic_analysis">
+					<div>
+						automatic analysis
+					</div>
+					<div class="ui-toggleswitch">
+                        <input type="checkbox" class="ui-switch-input" id="automatic_analysis_checkbox"/>
+						<div class="ui-switch-button"> </div>
+					</div>
+				</li>
+								
+  				<li class="ui-li-group-index">
+					Settings
+				</li>
+				<li class="li-has-multiline" id="settings_alarm_start" >
+			 		<a href="javascript:void()">
+						start time
+						<span class="ui-li-sub-text">
+							(of automatic daily analysis)
+						</span>
+					</a>
+				</li>
+				<li class="li-has-multiline" id="settings_alarm_stop">
+					<a href="javascript:void()">
+						stop time
+						<span class="ui-li-sub-text">
+							(of automatic daily analysis)
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a data-rel="popup" href="#InfoPopup">
+						info
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<!-- popup for uploading of logs/info/reseting params -->				
+		<div class="ui-popup" id="StartFailedPopup">
+			<div class="ui-popup-header">
+				Warning!
+			</div>
+			<div class="ui-popup-content">
+				Starting of seizure detection failed!
+				
+				<br />
+				
+				This is probably due to some internal error!
+				Please close the application (and its background service) and try again!
+				
+				<br />
+				
+				If the error occurs more frequently, please contact the developers!
+			</div>
+			<div class="ui-popup-footer ui-bottom-button">
+				<a class="ui-btn" data-rel="back" href="#" id="1btnPopup-cancel">
+					OK
+				</a>
+			</div>
+		</div>
+
+		<div class="ui-popup" id="RunningFailedPopup">
+			<div class="ui-popup-header">
+				Warning!
+			</div>
+			<div class="ui-popup-content">
+				Seizure detection service not found!
+				
+				<br />
+				
+				This is probably due to some internal error!
+				Please close the application (and its background service) and try again!
+				
+				<br />
+				
+				If the error occurs more frequently, please contact the developers!
+			</div>
+			<div class="ui-popup-footer ui-bottom-button">
+				<a class="ui-btn" data-rel="back" href="#" id="1btnPopup-cancel">
+					OK
+				</a>
+			</div>
+		</div>
+
+		<div class="ui-popup" id="AutomaticDetectionStartPopup">
+			<div class="ui-popup-header">
+				Epilarm
+			</div>
+			<div class="ui-popup-content">
+				Automatic seizure detection started!
+			</div>
+			<div class="ui-popup-footer ui-bottom-button">
+				<a class="ui-btn" data-rel="back" href="#" id="1btnPopup-cancel">
+					OK
+				</a>
+			</div>
+		</div>
+
+		<div class="ui-popup" id="AutomaticDetectionStopPopup">
+			<div class="ui-popup-header">
+				Epilarm
+			</div>
+			<div class="ui-popup-content">
+				Automatic seizure detection stopped!
+			</div>
+			<div class="ui-popup-footer ui-bottom-button">
+				<a class="ui-btn" data-rel="back" href="#" id="1btnPopup-cancel">
+					OK
+				</a>
+			</div>
+		</div>
+
+		<div class="ui-popup" id="InfoPopup">
+			<div class="ui-popup-header">
+				Epilarm
+			</div>
+			<div class="ui-popup-content">
+				In order to detect seizures we analyse the linear accelerometer data of the watch to filter out frequencies that are likely to appear during epileptic seizures.
+				
+				By default, the accelerometer data is collected every 20ms and every second the last 10 seconds of data are analyzed. This way we have a frequency resolution of
+				0.1Hz and the highest frequency we can detect is 25Hz. 
+				The GTCS at hand seem to admit frequencies in the range 2.5Hz--7.5Hz, which we call the region of interest - or short ROI.
+				<br />
+				Now every second a variable `alarmstate` is increased by one if
+				(1) the avg magnitude of the freqs in the ROI are higher by a factor of 2.5 than the avg of the remaining freqs, and
+				(2) the avg magnitude of the freqs in the ROI is higher than 2.3.
+				Otherwise it is decreased by one (as long as it is positive). 
+				<br />
+				As soon as the alarmstate reaches 10, an alarm is raised and one or more contact persons are notified by a phone call or SMS including the current GPS 
+				coordinates of the watch. (NOT YET IMPLEMENTED!)
+				
+				<br />
+				
+				More information and the source code can be found at 
+				<a class="ui-content ui-hyperlink" href="http://github.com/j-danner/Epilarm">
+					github.com/j-danner/Epilarm
+				</a>				
+			</div>
+			<div class="ui-popup-footer ui-bottom-button">
+				<a class="ui-btn" data-rel="back" href="#" id="1btnPopup-cancel">
+					OK
+				</a>
+			</div>
+		</div>
+		
+
+	</div>
+	
+	<script src="js/app.js"></script>
+	<script src="js/lowBatteryCheck.js"></script>
+</body>
+
+
+
+</html>

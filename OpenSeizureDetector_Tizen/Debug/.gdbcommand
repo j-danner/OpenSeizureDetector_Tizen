@@ -1,0 +1,6 @@
+set sysroot C:/Program Files (x86)/Tizen_Studio/platforms/tizen-4.0/wearable/rootstraps/wearable-4.0-device.core
+set debug-file-directory C:/Program Files (x86)/Tizen_Studio/platforms/tizen-4.0/wearable/rootstraps/wearable-4.0-device.core/usr/lib/debug
+set solib-search-path C:/Users/Julian/workspace/OpenSeizureDetector_Tizen/Debug
+dir C:/Program Files (x86)/Tizen_Studio/platforms/tizen-4.0/wearable/rootstraps/wearable-4.0-device.core/usr/src/debug
+file "C:/Users/Julian/workspace/OpenSeizureDetector_Tizen/Debug/openseizuredetector_tizen"
+sharedlibrary
