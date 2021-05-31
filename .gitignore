@@ -52,6 +52,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-OpenSeizureDetector_Tizen/.package/
-OpenSeizureDetector_Tizen/.sign/
-OpenSeizureDetector/.Debug/
+
+**/.package/
+**/.sign/
+**/Debug/
+**/Release/
