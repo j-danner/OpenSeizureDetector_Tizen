@@ -57,3 +57,4 @@ dkms.conf
 .sign/
 Debug/
 Release/
+.settings/
