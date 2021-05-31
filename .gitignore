@@ -53,7 +53,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-**/.package/
-**/.sign/
-**/Debug/
-**/Release/
+.package/
+.sign/
+Debug/
+Release/
