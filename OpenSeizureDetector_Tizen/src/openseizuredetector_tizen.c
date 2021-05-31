@@ -216,7 +216,7 @@ void start_UI()
 
 
 
-//updates data of BLE GATT service -- also queries battery level
+//updates data of BLE GATT service -- also updates battery level
 void share_data(void *data)
 {
     // Extracting application data
@@ -255,7 +255,7 @@ void share_data(void *data)
     int ret = bt_gatt_set_value(ad->bt_char_acc, comb_val_char, sampleRate);
     dlog_print(DLOG_INFO, LOG_TAG, "bt_gatt_set_value acc : %s\n", get_error_message(ret));
 
-    //notify all devices with activated indication/notification
+    //notify all devices with activated indication/notification -- TODO: do we need to send indication of this? (OSD only requests read of value every minute.)
     ret = bt_gatt_server_notify_characteristic_changed_value(ad->bt_char_acc, __bt_gatt_server_notification_sent_cb, NULL, NULL);
     dlog_print(DLOG_INFO, LOG_TAG, "bt_gatt_server_notify_characteristic_changed_value acc : %s\n", get_error_message(ret));
 
@@ -285,7 +285,7 @@ void sensor_event_callback(sensor_h sensor, sensor_event_s *event, void *data)
     ringbuf_push(ad->rb_y, event->values[1]);
     ringbuf_push(ad->rb_z, event->values[2]);
 
-    //each second perform fft analysis -> a second has passed if sampleRate number of new entries were made in rb_X, i.e., if rb_x->idx % sampleRate == 0
+    //each second perform share data with android phone via BLE
     if((ad->rb_x)->idx % sampleRate == 0)
     {
         share_data(ad);
@@ -294,7 +294,7 @@ void sensor_event_callback(sensor_h sensor, sensor_event_s *event, void *data)
 }
 
 
-//called on service app creation (initialized fft_trafos, rbs, and req params to defaults (these are overidden when started through UI!))
+//called on service app creation (initialize rbs and BLE server/chars/descrs/adv etc)
 bool service_app_create(void *data)
 {
   // Extracting application data
@@ -321,6 +321,7 @@ bool service_app_create(void *data)
   ad->HRM_buff = malloc(sizeof(double)*sampleRate);
 
   //TODO initialize BLE GATT server
+
   //make sure bluetooth is running
   int ret = bt_initialize();
   dlog_print(DLOG_ERROR, LOG_TAG, "bt_initialize : %s \n", get_error_message(ret));
@@ -417,6 +418,9 @@ bool service_app_create(void *data)
 
   ret = bt_adapter_le_set_advertising_device_name(ad->bt_advertiser, BT_ADAPTER_LE_PACKET_SCAN_RESPONSE, true);
   dlog_print(DLOG_ERROR, LOG_TAG, "enabling advertising device name: %s\n", get_error_message(ret));
+
+  ret = bt_adapter_le_set_advertising_mode(ad->bt_advertiser, BT_ADAPTER_LE_ADVERTISING_MODE_LOW_ENERGY);
+  dlog_print(DLOG_ERROR, LOG_TAG, "set advertising mode to 'low-energy': %s\n", get_error_message(ret));
 
 
   //create notification handles for unexpected shutdown notification!
@@ -519,7 +523,7 @@ void sensor_stop(void *data, bool warn)
 
 }
 
-//called when service app is terminated (this is NOT called when sensor listener is destroyed and analysis stopped!!)
+//called when service app is terminated (this is NOT called when sensor listener is destroyed and BHE data sharing is stopped!)
 void service_app_terminate(void *data)
 {
   // Extracting application data

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="org.example.openseizuredetector_tizen" version="1.0.0">
     <profile name="wearable"/>
-    <service-application appid="org.example.openseizuredetector_tizen" exec="openseizuredetector_tizen" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+    <service-application appid="org.example.openseizuredetector_tizen" auto-restart="true" exec="openseizuredetector_tizen" multiple="false" nodisplay="true" taskmanage="false" type="capp">
         <label>openseizuredetector_tizen</label>
         <icon>openseizuredetector_tizen.png</icon>
+        <background-category value="iot-communication"/>
     </service-application>
     <privileges>
-        <privilege>http://tizen.org/privilege/appdir.shareddata</privilege>
         <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
         <privilege>http://tizen.org/privilege/bluetooth</privilege>
         <privilege>http://tizen.org/privilege/notification</privilege>
@@ -14,7 +14,6 @@
     </privileges>
     <feature name="http://tizen.org/feature/network.bluetooth.le">true</feature>
     <feature name="http://tizen.org/feature/network.bluetooth">true</feature>
-    <feature name="http://tizen.org/feature/network.internet">true</feature>
     <feature name="http://tizen.org/feature/sensor.accelerometer">true</feature>
     <feature name="http://tizen.org/feature/battery">true</feature>
     <feature name="http://tizen.org/feature/sensor.linear_acceleration">true</feature>

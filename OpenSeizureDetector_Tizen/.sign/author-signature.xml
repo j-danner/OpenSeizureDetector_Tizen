@@ -4,8 +4,8 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></SignatureMethod>
 <Reference URI="bin%2Fopenseizuredetector_tizen">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>4BYjO61JipZf/VN1efoI+tRn4KdWgUVIhclwUUW0X/pBLGpQiltBXmkS8QVNnFxN4SfZeeFda0kC
-43FAVmGQZw==</DigestValue>
+<DigestValue>8CydlHihBZ/jaqh+UF70mTD9GN3rgHeue9mGiO7qQQmBi+twzGqiMrhhsoeRX3NC2U6+8TsNbCCc
+5+21KL6IdA==</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.Flora">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -1954,8 +1954,8 @@ bNc/wgCuGg==</DigestValue>
 </Reference>
 <Reference URI="tizen-manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>CX2yPwj7d522oIHvYpgRpqbT1Bu6XSkAeyX7VV2Gh4jstpEDGzPBd6/DbiX5lQdpzzktoAtpX8zt
-36FExh1Qwg==</DigestValue>
+<DigestValue>DCkfyoLzUIC2HBHiYm4Ur0WX7EUO5kAAIY/SgY9Wnr5JLGpiaii2KD7EfwJSSri9mvbHvNWiwW5Y
+Swd+CX73aw==</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -1967,11 +1967,11 @@ QY10fG1EWQ==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-gV3w8jp2lww+M1MS747c0o/HnA6tAUJSCgNaGL/tG4BGUH94wk7nAqcbB/dxd6qOjk8N/HjapNaL
-jlpLJHrFxzDKXthyKYomHvocZPgJ5dsZ/7MqbFtYwAk9sWsaVRGrXFDlGWEcne5wzemDb7gcwMgs
-J6epo1//SO6aLwgpUpABYcNUSclPp8tR6izo52rSH5fwpG/qESjRL7Slw/bl3Drhy9M3HU3iiWOR
-44HVgpfp4wHBMPgrQpx3zZPs7f3V7nbzRXyPfbOMmJUZzCF12FWjY16dVV/0TZNaUqrXezjC8nBb
-CZB7ssx06Lv0fe955FmT0zNczblcZan5Jf3nbg==
+N0qF1FgaO+tkhqxtcloZOuL67hc+jPpxvr8m6FF3v6/FH1kY0WhUtPh7gtAiWrIy/oRYmMS+9/3r
+2m2gVkym+BMiDu0mTJhHTj6b2v5/j8cpaTolX6acJMV+QXUAKolHjVINBs5RnpwmG2DfvK2FE4Pv
+cdIKk1No/ISMt3b8qDh93P5QGTiubM8CqMHn4CwxaC+PERecESUuhQaQ1NC6Xh/cw2U2ISK44YQW
+NTUZN+xqlK2JXAdmN5iTIchl87uygOaxYwph69mZ5JbNb7UdG8RZU6vwJEJuX6pXihPyNV3rhCgo
+u55qJDYb2Pa8qA2Zv5z6xMCqd6qbj4B2ssXbqg==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

@@ -4,13 +4,13 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></SignatureMethod>
 <Reference URI="bin%2Fopenseizuredetector_tizen">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>ksHdnRjIr+eJzGRpyXU9dyDRh+WQPBC2txnxjIDLE+THEpz9iWKyywErmCydztdTKAXFNg1UnCZW
-Jo9Ag4DNyw==</DigestValue>
+<DigestValue>EuPFgEVHTzhPvP4hou3L1Ild2H7rr+8OxBxudgc56kiH+HKCXWzzRokGBh1FfgPEZuYq/jdz3PwC
+9yMcY91p9Q==</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>K2uW7uRPYSq0RgfbcqfSL2gSkIGwKUyXDLDS7mXcvI7q//wuaWOdWZdIqWNitrRB+00BZf7GFByw
-+d79sOSyMA==</DigestValue>
+<DigestValue>hnCRdlTP5gm9UP+8X8Upj59BytENPM2WKvjYHaq2O83Xavxlq6hqB0oxnnkZZ5/xjMAmwXqwEO80
+e6JOEvnALg==</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.Flora">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -3939,8 +3939,8 @@ bNc/wgCuGg==</DigestValue>
 </Reference>
 <Reference URI="tizen-manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>7/Rrr4OPhY6i0pnB4Ajcto3qIck9bIW32PywccXre35spQPyIcTj5YL1ehj4NJ4jkZhxd5Ip+tr+
-JwNECsRfrA==</DigestValue>
+<DigestValue>1qiQRuqDf2E0+374veF3ykbfus4FPFG1/hmN4JAwwc+Hlr7oZe6UJvlKLNH4W0FCg7w5PKiY1UaR
+E3zyuUnN4A==</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -3952,11 +3952,11 @@ QY10fG1EWQ==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-UAOp4bvTxDH9IBRqUpMIbgkN9mOX8X1o5yNJ0E56E9ViAdC5nMQpQyUn2f0xelB3JtwSAg0HvV+U
-CozILT/kDdjIymnTuKhXqIa6I8xHRW7v2zea0VhT60jIAKYX0j3YJFk7PEfdYifYgpt0I7NdjxDk
-7n2gCPUK2giwKQolFMCvugXmntXBJ4n6z7143BudjzHb6rqfkk20trxGMFjUtgVb+Vz5zo/puETR
-ovt2RV/gs1u8ykmMI/nuZWZDmflT9JnRcgxFVa7uRfjZhlUPzvOoR5w3j3PkLGjB93n3U7qnLYOt
-VJihPb1m2Li8qAhOjVhobZ2ru3U39tnAK04KOw==
+ErAziaABlb+auHl/VMjoCdpITYDnOJyWWgkT0gurb7U814onEejvOsJ8+O0454AAPvQLg2MiwdN6
+fOcOB7/GkgvEyELvECM7IPA/u+FFGv6G8l09yYtqHf8E9D5st4rid4S4sRRtvgf4wrNexsUoS+Re
+bTKkDlxZrzjhS1pucmC5m54R/2gB3sSjlE7qzY3yqheetvgWMVQ9fkB/UJkzjWOLwk+6xJ/MxZ4m
+bG6ZYpVDjSZnVxyspwOHO5TRT67rfI9j7oladZv/qzg6yZ7uzMEhbDrJ7EM5RvQh9bl5Y/QiSPT3
+7ex+v9nFke015qZrj3iZlDJtekBbFPihpOVuiw==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
