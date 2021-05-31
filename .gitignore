@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+OpenSeizureDetector/.sign/.manifest.tmp
+OpenSeizureDetector/.package/config.xml
+*.tmp
+*.tmp
+OpenSeizureDetector/.sign/author-signature.xml
+OpenSeizureDetector/.sign/signature1.xml
+OpenSeizureDetector_Tizen/.sign/author-signature.xml
+OpenSeizureDetector_Tizen/.sign/signature1.xml
+OpenSeizureDetector_Tizen/Debug/.ninja_deps
+OpenSeizureDetector_Tizen/Debug/.ninja_log
+OpenSeizureDetector_Tizen/Debug/openseizuredetector_tizen
