@@ -1,3 +1,8 @@
+**DISCONTINUED**
+
+***Since my girlfriend's epilepsy got better, we have no real use for this app at the moment; so development was paused.***
+*Nonetheless, if anyone wants to finish this project, I am happy to help where I can!*
+
 # OpenSeizureDetector-Tizen
 Detection of generalized tonic-clonic seizures using a smartwatch using Tizen OS (e.g. Galaxy Watch Active 2) in combination with
 the [OpenSeizureDetector App](https://github.com/OpenSeizureDetector/Android_Pebble_SD).
